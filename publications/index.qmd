@@ -18,11 +18,6 @@ title-block-banner: false
 ---
 
 Filter by topic using the category chips below. Each entry lists my specific contribution — first-author/lead work is distinguished from collaborative contributions.
-
-::: {.placeholder-note}
-**To add a publication:** copy `publications/_template.qmd`, fill in the front matter and a BibTeX entry in `references.bib`, then save it in this folder.
-:::
-
 ## Presentations
 
 - **CoMS-GSU 2026 Symposium**, Columbus, OH (April 2026) — Poster: *VirION3: an advanced short- and long-read sequencing and informatics workflow for viral diversity in natural environments.*

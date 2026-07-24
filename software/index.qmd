@@ -65,7 +65,3 @@ flowchart LR
 **Related project page:** [VirION3](../projects/virion3.qmd)
 
 ---
-
-::: {.placeholder-note}
-**To add software:** copy `software/_template.qmd`, fill in the details, and link it from this page.
-:::

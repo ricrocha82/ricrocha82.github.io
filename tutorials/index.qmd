@@ -15,7 +15,3 @@ title-block-banner: false
 ---
 
 Reproducible, code-first tutorials on bioinformatics workflows, pipelines, and HPC. All example data is simulated or public — no confidential project data is used in tutorials.
-
-::: {.placeholder-note}
-**To add a tutorial:** copy `tutorials/posts/_template/` folder, rename it, edit `index.qmd` front matter (title, date, categories, description) and content, set `draft: false` when ready to publish.
-:::

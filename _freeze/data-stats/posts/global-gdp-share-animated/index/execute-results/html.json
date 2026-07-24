@@ -1,0 +1,12 @@
+{
+  "hash": "1b6d8df131d27ea1e64ffd338ba3b88a",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Animated Global GDP-Share Trends\"\ndescription: \"Placeholder — Animated Global GDP-Share Trends.\"\ndate: \"2026-12-31\"\ncategories: [Visualization, Time-series]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## The analytical question\n[To be written]\n\n## Data source\n[Public or simulated dataset only — to be written]\n\n## Data cleaning\n[To be written]\n\n## Statistical method\n[To be written]\n\n## Visualization\n\n\n## Interpretation\n[To be written]\n\n## Assumptions\n[To be written]\n\n## Limitations\n[To be written]\n\n## Reproducibility\n[To be written]\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

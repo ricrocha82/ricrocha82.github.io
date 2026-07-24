@@ -1,0 +1,54 @@
+---
+title: "[Tutorial Title]"
+description: "[One-sentence summary]"
+date: "YYYY-MM-DD"
+categories: [Nextflow]     # e.g. Python, R, Bash, Nextflow, HPC, Metagenomics
+image: "featured.png"
+image-alt: "[Describe what the featured image shows]"
+draft: true                 # set to false to publish
+reading-time: true
+---
+
+## Problem
+[What real-world bioinformatics problem motivates this tutorial?]
+
+## Learning objectives
+By the end of this tutorial you will be able to:
+
+- [objective 1]
+- [objective 2]
+
+## Prerequisites
+[Software, packages, background knowledge needed]
+
+## Conceptual explanation
+[Explain the underlying concept before showing code]
+
+## Reproducible example
+[Describe the simulated or public dataset used — never confidential project data]
+
+## Code
+```{python}
+#| eval: false
+# example code — set eval: true once the environment/dependencies are confirmed
+```
+
+## Output
+[Show and interpret the output]
+
+## Interpretation
+[What does the output mean?]
+
+## Common errors
+[Known pitfalls and how to fix them]
+
+## Limitations
+[What this method does not do / where it breaks down]
+
+## References
+[Citations]
+
+## Environment
+```
+# paste `sessionInfo()` (R) or `pip freeze` / environment.yml (Python) here
+```

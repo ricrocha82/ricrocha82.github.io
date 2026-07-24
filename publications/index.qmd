@@ -1,0 +1,29 @@
+---
+title: "Publications"
+description: "Peer-reviewed articles, preprints, and conference outputs."
+listing:
+  contents: "."
+  exclude:
+    filename: ["index.qmd", "_template.qmd"]
+  type: table
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: true
+  categories: true
+  fields: [title, date, pub-journal, categories]
+  field-display-names:
+    pub-journal: "Journal / Venue"
+page-layout: full
+title-block-banner: false
+---
+
+Filter by topic using the category chips below. Each entry lists my specific contribution — first-author/lead work is distinguished from collaborative contributions.
+
+::: {.placeholder-note}
+**To add a publication:** copy `publications/_template.qmd`, fill in the front matter and a BibTeX entry in `references.bib`, then save it in this folder.
+:::
+
+## Presentations
+
+- **CoMS-GSU 2026 Symposium**, Columbus, OH (April 2026) — Poster: *VirION3: an advanced short- and long-read sequencing and informatics workflow for viral diversity in natural environments.*
+- **Midwest Microbiome Symposium**, Columbus, OH (May 2025) — Poster: *CRESSENT: A Toolkit to Enhance ssDNA Virus Annotation.*

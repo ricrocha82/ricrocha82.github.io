@@ -1,0 +1,12 @@
+{
+  "hash": "d0b0618eba90a63a280d0c2a6b2e47cf",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Understanding Metagenomic Bin Refinement\"\ndescription: \"Placeholder — Understanding Metagenomic Bin Refinement.\"\ndate: \"2026-12-31\"\ncategories: [Metagenomics, Bash]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## Problem\n[To be written]\n\n## Learning objectives\n- [To be written]\n\n## Prerequisites\n[To be written]\n\n## Conceptual explanation\n[To be written]\n\n## Reproducible example\n[Simulated or public dataset only — to be written]\n\n## Code\n\n\n## Output\n[To be written]\n\n## Interpretation\n[To be written]\n\n## Common errors\n[To be written]\n\n## Limitations\n[To be written]\n\n## References\n[To be written]\n\n## Environment\n```\n[To be written]\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

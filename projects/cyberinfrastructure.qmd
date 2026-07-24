@@ -1,0 +1,58 @@
+---
+title: "Cyberinfrastructure & Training"
+description: "Modernizing and documenting bioinformatics applications on CyVerse, ACCESS, and Tapis-backed HPC."
+date: "2025-06-01"
+image-alt: "Cyberinfrastructure and training project thumbnail"
+image: "../images/projects/cyberinfrastructure.png"
+categories: [HPC and Workflows, Bioinformatics Software]
+status: "Ongoing"
+---
+
+## Overview
+Ongoing work integrating CyVerse user-facing applications with Tapis-backed HPC execution, and co-developing training materials that teach researchers and cyberinfrastructure professionals to run AI- and HPC-enabled viral ecology workflows.
+
+## Scientific or practical problem
+Powerful HPC and cloud research-computing resources (CyVerse, ACCESS, Tapis) are underused by domain researchers because the tooling and documentation gap between "has an HPC allocation" and "can run their analysis reliably" is often large.
+
+## My role
+**Cyberinfrastructure-facing bioinformatics developer.** I integrate CyVerse applications with Tapis-backed execution, manage data transfer and input/output mapping, document app-update procedures and computational protocols (via Protocols.io), and co-develop training modules and example datasets for the **iVirus Cyberinfrastructure Training Initiative**.
+
+## Dataset or data type
+Example/training datasets for viral and eco-genomics workflows (not primary research data).
+
+## Methods and technologies
+- CyVerse discovery environment app development
+- Tapis-backed HPC job execution
+- Data transfer and I/O mapping and synchronization
+- Protocol and procedure documentation (Protocols.io)
+- Training-module and example-dataset development
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[CyVerse app] --> B[Tapis job submission]
+  B --> C[HPC execution]
+  C --> D[Output synced back to CyVerse]
+  D --> E[Documented protocol / training module]
+```
+
+## Major results or outputs
+Updated and documented viral/eco-genomics analysis applications on national cyberinfrastructure platforms; contributed training modules supporting NSF-funded pipelines and future grant development.
+
+## Challenges and decisions
+Prioritizing documentation and reproducibility (so others can maintain and extend the apps) alongside the underlying analysis correctness — treating "usable by someone else" as a deliverable, not an afterthought.
+
+## Publications
+Not applicable (infrastructure/training work); may inform future methods papers.
+
+## Code and documentation
+Documentation hosted on Protocols.io and CyVerse; specific links to be added as they are finalized.
+
+## Collaborators
+iVirus Cyberinfrastructure Training Initiative; OSU Microbiome Working Group; CyVerse/ACCESS/Tapis teams.
+
+## Current status
+Ongoing.
+
+## Limitations or confidentiality note
+None — describes infrastructure and training contributions, not confidential research results.

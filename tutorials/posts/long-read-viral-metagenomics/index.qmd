@@ -1,0 +1,49 @@
+---
+title: "Long-Read Viral Metagenomics"
+description: "Placeholder — Long-Read Viral Metagenomics."
+date: "2026-12-31"
+categories: [Viromics, Nextflow]
+image: "featured.png"
+draft: true
+reading-time: true
+---
+
+## Problem
+[To be written]
+
+## Learning objectives
+- [To be written]
+
+## Prerequisites
+[To be written]
+
+## Conceptual explanation
+[To be written]
+
+## Reproducible example
+[Simulated or public dataset only — to be written]
+
+## Code
+```{python}
+#| eval: false
+```
+
+## Output
+[To be written]
+
+## Interpretation
+[To be written]
+
+## Common errors
+[To be written]
+
+## Limitations
+[To be written]
+
+## References
+[To be written]
+
+## Environment
+```
+[To be written]
+```

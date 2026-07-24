@@ -1,0 +1,24 @@
+---
+title: "Projects"
+description: "Selected bioinformatics, microbiome, viromics, and data science projects."
+listing:
+  contents: "."
+  exclude:
+    filename: "index.qmd"
+  type: grid
+  grid-columns: 3
+  image-height: "160px"
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, title, description, categories, date]
+page-layout: full
+title-block-banner: false
+---
+
+Each project page describes the scientific problem, my specific role, methods, and current status. Work I led is distinguished from collaborative or ongoing (unpublished) work; confidential or collaborator-owned results are generalized or omitted.
+
+::: {.placeholder-note}
+**To add a new project:** copy `projects/_template.qmd`, rename it, fill in the YAML front matter (`title`, `categories`, `date`, `image`) and the body sections, then add it to this folder — it will appear here automatically.
+:::

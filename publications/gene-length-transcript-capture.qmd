@@ -1,0 +1,17 @@
+---
+title: "Gene length is a pivotal feature to explain disparities in transcript capture between single transcriptome techniques"
+date: "2023-01-01"
+categories: [Machine Learning, Biomedical Research]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Frontiers in Bioinformatics"
+doi: "10.3389/fbinf.2023.1144266"
+---
+
+**Journal:** Frontiers in Bioinformatics · **Year:** 2023
+
+**My contribution:** Lead author. Performed computational analysis comparing single-cell and single-nucleus RNA-seq transcript capture.
+
+**Citation:** [@pavan2023genelength]
+
+[DOI: 10.3389/fbinf.2023.1144266](https://doi.org/10.3389/fbinf.2023.1144266)

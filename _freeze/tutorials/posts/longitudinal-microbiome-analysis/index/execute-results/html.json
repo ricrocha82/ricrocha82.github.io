@@ -1,0 +1,12 @@
+{
+  "hash": "604ebf97cae422ccc4846a7d37cbf28f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Analyzing Longitudinal Microbiome Data\"\ndescription: \"Placeholder — Analyzing Longitudinal Microbiome Data.\"\ndate: \"2026-12-31\"\ncategories: [R, Microbiome]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## Problem\n[To be written]\n\n## Learning objectives\n- [To be written]\n\n## Prerequisites\n[To be written]\n\n## Conceptual explanation\n[To be written]\n\n## Reproducible example\n[Simulated or public dataset only — to be written]\n\n## Code\n\n\n## Output\n[To be written]\n\n## Interpretation\n[To be written]\n\n## Common errors\n[To be written]\n\n## Limitations\n[To be written]\n\n## References\n[To be written]\n\n## Environment\n```\n[To be written]\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

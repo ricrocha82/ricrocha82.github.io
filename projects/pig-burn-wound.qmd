@@ -1,0 +1,61 @@
+---
+title: "Pig Burn Wound Microbiome"
+description: "Metagenomic bioinformatics workflow for a pig burn-wound infection model."
+date: "2025-01-01"
+image-alt: "Pig burn wound microbiome project thumbnail"
+image: "../images/projects/pig-burn-wound.png"
+categories: [Microbiome, Biomedical Research, HPC and Workflows]
+status: "Ongoing"
+---
+
+## Overview
+A metagenomic bioinformatics project processing sequencing data from a pig burn-wound model to characterize the wound-associated microbial community and its dynamics over time.
+
+## Scientific or practical problem
+Understanding how microbial communities colonize and change during burn-wound healing (or infection) can inform wound-care research. This requires a reproducible pipeline for turning raw shotgun metagenomic reads into genome bins and taxonomic/functional profiles.
+
+## My role
+**Bioinformatics analysis support**, focused on the computational pipeline: raw-read processing, host-DNA depletion, assembly, genome binning, and taxonomic classification.
+
+## Dataset or data type
+Shotgun metagenomic sequencing from a pig (animal model) burn-wound study. *(Specific sample sizes and collaborator-owned results are not disclosed here.)*
+
+## Methods and technologies
+- Raw-read quality control and host depletion
+- Metagenomic assembly
+- Genome binning and bin refinement
+- **CheckM2** completeness/contamination evaluation
+- **GTDB-Tk** taxonomic classification
+- **Nextflow** workflows executed via **Slurm** and **Apptainer**
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Raw reads] --> B[Host depletion & QC]
+  B --> C[Metagenomic assembly]
+  C --> D[Genome binning]
+  D --> E[Bin refinement + CheckM2]
+  E --> F[GTDB-Tk taxonomy]
+  F --> G[Downstream microbiome analysis]
+```
+
+## Major results or outputs
+A reusable, containerized Nextflow workflow for metagenomic assembly-to-taxonomy processing, applicable beyond this specific study.
+
+## Challenges and decisions
+Host-DNA depletion and bin refinement thresholds required careful tuning given the animal-model sample composition; workflow steps were containerized specifically to make the pipeline portable to other HPC environments.
+
+## Publications
+Not yet published.
+
+## Code and documentation
+Internal/collaborator project; not publicly released at this time.
+
+## Collaborators
+Collaborative project with a research group studying wound-healing models; specific collaborator identities and unpublished results are withheld.
+
+## Current status
+Ongoing.
+
+## Limitations or confidentiality note
+This description is intentionally generalized. No unpublished results, sample-level data, or collaborator-identifying details are shown, per data-sharing agreements.

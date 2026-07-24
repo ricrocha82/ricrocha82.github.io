@@ -1,0 +1,17 @@
+---
+title: "Toxicity and genotoxicity in Astyanax bimaculatus (Characidae) induced by microcystins from a bloom of Microcystis spp"
+date: "2010-01-01"
+categories: [Biomedical Research]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Genetics and Molecular Biology"
+doi: "10.1590/S1415-47572010000400023"
+---
+
+**Journal:** Genetics and Molecular Biology · **Year:** 2010
+
+**My contribution:** Lead author (MSc research).
+
+**Citation:** [@silva2010toxicity]
+
+[DOI: 10.1590/S1415-47572010000400023](https://doi.org/10.1590/S1415-47572010000400023)

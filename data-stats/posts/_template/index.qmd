@@ -1,0 +1,45 @@
+---
+title: "[Post Title]"
+description: "[One-sentence summary of the analytical question]"
+date: "YYYY-MM-DD"
+categories: [Visualization]  # e.g. Statistics, Visualization, Time-series, Ecology, Machine Learning
+image: "featured.png"
+image-alt: "[Describe what the featured image shows]"
+draft: true                   # set to false to publish
+reading-time: true
+---
+
+## The analytical question
+[What are we trying to find out?]
+
+## Data source
+[Public dataset or simulated data — never confidential project data]
+
+## Data cleaning
+[Key cleaning/preprocessing steps]
+
+## Statistical method
+[Method used, and why it's appropriate]
+
+## Visualization
+```{python}
+#| eval: false
+# plotting code
+```
+
+## Code
+```{python}
+#| eval: false
+```
+
+## Interpretation
+[What the result means]
+
+## Assumptions
+[Statistical assumptions made]
+
+## Limitations
+[Where this analysis falls short]
+
+## Reproducibility
+[Environment/dependency info, data availability]

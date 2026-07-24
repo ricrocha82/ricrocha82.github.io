@@ -1,0 +1,58 @@
+---
+title: "Spinal Cord Injury Microbiome & Virome"
+description: "Longitudinal microbiome, virome, and phage-host dynamics following spinal cord injury."
+date: "2025-01-01"
+image-alt: "Spinal cord injury microbiome and virome project thumbnail"
+image: "../images/projects/sci-microbiome.png"
+categories: [Microbiome, Viromics, Biomedical Research]
+status: "Ongoing"
+---
+
+## Overview
+A longitudinal study examining microbiome, virome, phage–host, and mobile-genetic-element dynamics following spinal cord injury (SCI), an area where gut microbial disruption is thought to influence recovery and health outcomes.
+
+## Scientific or practical problem
+Spinal cord injury is associated with disruption of the gut microbiome, but how virome and phage–host dynamics change over time, and how mobile genetic elements move through the community post-injury, is not well characterized.
+
+## My role
+**Bioinformatics/statistical analysis support** for longitudinal microbiome and virome profiling.
+
+## Dataset or data type
+Longitudinal microbiome/virome sequencing samples from an SCI cohort or model system. *(Specific cohort details withheld pending publication.)*
+
+## Methods and technologies
+- Longitudinal microbiome and virome profiling
+- Phage–host linkage prediction
+- Mobile genetic element detection
+- Time-series statistical analysis
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Longitudinal samples] --> B[Microbiome + virome profiling]
+  B --> C[Phage-host linkage]
+  B --> D[Mobile element detection]
+  C --> E[Temporal dynamics analysis]
+  D --> E
+```
+
+## Major results or outputs
+Not yet public — analysis is ongoing.
+
+## Challenges and decisions
+Longitudinal study designs require careful handling of repeated-measures structure (e.g., mixed-effects models) rather than treating timepoints as independent samples.
+
+## Publications
+Not yet published.
+
+## Code and documentation
+Not yet publicly released.
+
+## Collaborators
+Collaborative biomedical research project; specific collaborator identities withheld pending publication.
+
+## Current status
+Ongoing.
+
+## Limitations or confidentiality note
+This description is intentionally generalized. No unpublished results or identifying participant/collaborator information are shown.

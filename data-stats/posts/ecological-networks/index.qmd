@@ -1,0 +1,38 @@
+---
+title: "Building and Interpreting Ecological Networks"
+description: "Placeholder — Building and Interpreting Ecological Networks."
+date: "2026-12-31"
+categories: [Ecology, Visualization]
+image: "featured.png"
+draft: true
+reading-time: true
+---
+
+## The analytical question
+[To be written]
+
+## Data source
+[Public or simulated dataset only — to be written]
+
+## Data cleaning
+[To be written]
+
+## Statistical method
+[To be written]
+
+## Visualization
+```{python}
+#| eval: false
+```
+
+## Interpretation
+[To be written]
+
+## Assumptions
+[To be written]
+
+## Limitations
+[To be written]
+
+## Reproducibility
+[To be written]

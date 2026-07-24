@@ -1,0 +1,14 @@
+---
+title: "Page Not Found"
+description: "404 - the page you're looking for doesn't exist."
+---
+
+## 404 — Page not found
+
+The page you're looking for doesn't exist or has moved.
+
+- [Go to the homepage](index.qmd)
+- [Browse Projects](projects/index.qmd)
+- [Browse Publications](publications/index.qmd)
+- [Browse Tutorials](tutorials/index.qmd)
+- [Contact](contact/index.qmd)

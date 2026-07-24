@@ -1,0 +1,58 @@
+---
+title: "VirION3"
+description: "A hybrid long- and short-read workflow for viromics using Nanopore, PacBio, and Illumina data."
+date: "2025-06-01"
+image-alt: "VirION3 project thumbnail"
+image: "../images/projects/virion3.png"
+categories: [Bioinformatics Software, Viromics, HPC and Workflows]
+status: "Ongoing"
+---
+
+## Overview
+VirION3 is an integrated wet-lab-and-informatics pipeline combining long-read (Oxford Nanopore, PacBio) and short-read (Illumina) sequencing to improve the recovery, assembly, and ecological interpretation of viral genomes from environmental samples. It extends the earlier VirION and VirION2 methods.
+
+## Scientific or practical problem
+Short-read-only viral metagenomics often fails to fully resolve genome structure, repeats, and microdiversity in viral populations. Long-read and hybrid approaches can recover more complete genomes, but need systematic benchmarking against established short-read methods before being adopted as standard practice.
+
+## My role
+**Developer**, contributing to pipeline design, implementation, and benchmarking analysis comparing short-read and long-read/hybrid workflows.
+
+## Dataset or data type
+Environmental viral metagenomes sequenced with Illumina, Oxford Nanopore, and PacBio platforms.
+
+## Methods and technologies
+- Long-read assembly and hybrid (long+short read) assembly
+- Pipeline benchmarking (genome recovery, accuracy, contiguity)
+- Viral population analysis and microdiversity assessment
+- Reproducible workflow implementation (Nextflow)
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Illumina reads] --> D[Hybrid assembly]
+  B[Nanopore reads] --> D
+  C[PacBio reads] --> D
+  D --> E[Viral genome recovery]
+  E --> F[Population / microdiversity analysis]
+```
+
+## Major results or outputs
+Benchmarking comparisons quantifying differences in genome recovery, assembly accuracy, and bias between short-read-only and hybrid long+short-read approaches. *(Full results pending publication.)*
+
+## Challenges and decisions
+Balancing the higher per-base error rate of long reads against their advantage in resolving repetitive and structurally complex viral genome regions — addressed through hybrid assembly strategies and careful benchmarking design.
+
+## Publications
+Manuscript in preparation.
+
+## Code and documentation
+Repository link pending public release.
+
+## Collaborators
+Extends prior VirION/VirION2 methods developed within the Sullivan Lab, The Ohio State University.
+
+## Current status
+Ongoing development and benchmarking.
+
+## Limitations or confidentiality note
+This page describes methods and general goals only; specific results are withheld pending publication.

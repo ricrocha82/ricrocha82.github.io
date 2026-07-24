@@ -1,0 +1,17 @@
+---
+title: "Composition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture"
+date: "2022-01-01"
+categories: [Environmental Research, Microbiome]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Marine Pollution Bulletin"
+doi: "10.1016/j.marpolbul.2022.113957"
+---
+
+**Journal:** Marine Pollution Bulletin · **Year:** 2022
+
+**My contribution:** Lead author (PhD research).
+
+**Citation:** [@dasilva2022composition]
+
+[DOI: 10.1016/j.marpolbul.2022.113957](https://doi.org/10.1016/j.marpolbul.2022.113957)

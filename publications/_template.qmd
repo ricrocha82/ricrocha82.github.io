@@ -1,0 +1,18 @@
+---
+title: "[Publication Title]"
+date: "YYYY-01-01"
+categories: [Microbiome]     # choose relevant topic tags
+pub-type: "journal-article"  # journal-article | preprint | conference-paper | software-paper
+first-author: false          # true if you are first/lead author
+pub-journal: "[Journal Name]"
+doi: "[10.xxxx/xxxxx]"
+---
+
+**Journal:** [Journal Name] · **Year:** YYYY
+
+**My contribution:** [Lead author / Co-author — describe specifically what you did]
+
+**Citation:** [@bibtexkey]
+
+<!-- 1. Add a matching entry to references.bib with the same bibtexkey
+     2. [DOI](https://doi.org/...) · [Code](...) · [Data](...) links go here -->

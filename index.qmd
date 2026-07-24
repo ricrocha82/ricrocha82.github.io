@@ -1,0 +1,175 @@
+---
+title: "Home"
+page-layout: full
+title-block-banner: false
+description: "Bioinformatics scientist developing reproducible computational methods for microbiome, virome, and biomedical research."
+listing:
+  - id: latest-tutorials
+    contents:
+      - tutorials/posts
+      - data-stats/posts
+    type: grid
+    max-items: 3
+    sort: "date desc"
+    fields: [image, title, description, date, categories]
+    categories: false
+---
+
+::: {.hero}
+<div class="row align-items-center">
+<div class="col-md-8">
+
+# {{< var name >}}
+
+<p class="hero-subtitle">{{< var title >}} &nbsp;|&nbsp; {{< var subtitle >}}</p>
+
+{{< var positioning_supporting >}}
+
+<div class="mt-3">
+<a class="btn btn-primary btn-lg me-2" href="projects/index.qmd" role="button">View Projects</a>
+<a class="btn btn-outline-secondary btn-lg" href="{{< var cv_pdf >}}" role="button">Download CV</a>
+</div>
+
+<div class="mt-3">
+<a href="{{< var links.github >}}" aria-label="GitHub"><i class="bi bi-github"></i> GitHub</a> &nbsp;·&nbsp;
+<a href="{{< var links.linkedin >}}" aria-label="LinkedIn"><i class="bi bi-linkedin"></i> LinkedIn</a> &nbsp;·&nbsp;
+<a href="{{< var links.scholar >}}" aria-label="Google Scholar"><i class="bi bi-mortarboard"></i> Google Scholar</a> &nbsp;·&nbsp;
+<a href="{{< var links.orcid >}}" aria-label="ORCID">ORCID</a> &nbsp;·&nbsp;
+<a href="mailto:{{< var email >}}" aria-label="Email">Email</a>
+</div>
+
+</div>
+<div class="col-md-4 hero-photo text-center">
+<!-- [PLACEHOLDER] replace with an updated professional headshot at images/profile/headshot.jpg -->
+<img src="images/profile/headshot.jpg" alt="Portrait of Ricardo R. Pavan">
+</div>
+</div>
+:::
+
+## What I do
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .expertise-card}
+### Microbiome & Viromics
+I design and run analyses that turn raw sequencing reads — 16S amplicon, shotgun metagenomic, and viral metagenomic data — into reliable, interpretable pictures of microbial and viral community structure, dynamics, and host interactions.
+:::
+
+::: {.g-col-12 .g-col-md-6 .expertise-card}
+### Bioinformatics Software & Pipelines
+I build and maintain open-source tools (e.g. CRESSENT) and workflow pipelines that make specialized analyses reusable, tested, documented, and installable by other researchers — not one-off scripts.
+:::
+
+::: {.g-col-12 .g-col-md-6 .expertise-card}
+### Statistical Analysis & Machine Learning
+I apply multivariate statistics, regression, classification, dimensionality reduction, and clustering to high-dimensional biological and environmental data, with attention to study design and validation, not just model fitting.
+:::
+
+::: {.g-col-12 .g-col-md-6 .expertise-card}
+### Reproducible Pipelines & HPC
+I implement workflows in Nextflow and Snakemake, containerized with Docker/Apptainer and run on Slurm-managed HPC and research cyberinfrastructure (CyVerse, ACCESS, Tapis), so analyses can be rerun and verified by others.
+:::
+
+:::
+
+## Featured projects
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### [CRESSENT](projects/cressent.qmd)
+**Problem:** ssDNA viruses (CRESS viruses) lack consistent, reproducible annotation tools.
+**Role:** Lead developer.
+**Methods:** Python/R, motif & recombination analysis, CLI packaging.
+**Impact:** Published open-source toolkit distributed via PyPI/Bioconda ([Microbial Genomics](https://doi.org/10.1099/mgen.0.001632)).
+
+`Python` `R` `PyPI` `Bioconda` `CLI`
+
+[Project details](projects/cressent.qmd) · [Repository](https://github.com/ricrocha82/cressent) · [Publication](https://doi.org/10.1099/mgen.0.001632)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [VirION3](projects/virion3.qmd)
+**Problem:** Short-read-only sequencing struggles to recover complete, accurate viral genomes.
+**Role:** Developer, pipeline design.
+**Methods:** Long-read (Nanopore/PacBio) + Illumina hybrid assembly, benchmarking.
+**Impact:** Extends the VirION/VirION2 line of methods for viral genome recovery.
+
+`Nanopore` `PacBio` `Illumina` `Nextflow`
+
+[Project details](projects/virion3.qmd) · Repository: *link pending*
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [BATS Diel Virome](projects/bats-diel-virome.qmd)
+**Problem:** Viral population dynamics at sub-daily timescales are rarely resolved in marine systems.
+**Role:** Co-lead, statistical/bioinformatic analysis.
+**Methods:** Time-series viral metagenomics, host prediction, depth-stratified sampling.
+**Impact:** Published in [PLOS Biology](https://doi.org/10.1371/journal.pbio.3003474).
+
+`Metagenomics` `Time-series` `Host prediction`
+
+[Project details](projects/bats-diel-virome.qmd) · [Publication](https://doi.org/10.1371/journal.pbio.3003474)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [Pig Burn Wound Microbiome](projects/pig-burn-wound.qmd)
+**Problem:** Understanding microbial community succession in a wound-healing model.
+**Role:** Bioinformatics analysis (assembly, binning, taxonomy).
+**Methods:** Nextflow, metagenomic assembly, genome binning, CheckM2, GTDB-Tk.
+**Impact:** Ongoing — generalized methods description (no unpublished results shown).
+
+`Nextflow` `Slurm` `Apptainer` `Metagenomics`
+
+[Project details](projects/pig-burn-wound.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [Spinal Cord Injury Microbiome & Virome](projects/sci-microbiome.qmd)
+**Problem:** How microbiome, virome, and phage–host dynamics shift after spinal cord injury.
+**Role:** Bioinformatics/statistical analysis.
+**Methods:** Longitudinal microbiome/virome profiling, mobile-element detection.
+**Impact:** Ongoing — generalized methods description.
+
+`Longitudinal` `Microbiome` `Virome`
+
+[Project details](projects/sci-microbiome.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [Macquarie Harbour Microbial Ecology](projects/macquarie-harbour.qmd)
+**Problem:** How environmental gradients and aquaculture shape microbial communities in a stratified estuary.
+**Role:** PhD research — lead.
+**Methods:** 16S/18S sequencing, network analysis, machine learning, db-RDA/PERMANOVA.
+**Impact:** Multiple peer-reviewed publications (2021–2022).
+
+`R` `Machine Learning` `Ecological Statistics`
+
+[Project details](projects/macquarie-harbour.qmd)
+:::
+
+:::
+
+[See all projects →](projects/index.qmd)
+
+## Selected outputs
+
+- **Publication** — Pavan, Sullivan & Tisza (2026). *CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation.* Microbial Genomics. [DOI](https://doi.org/10.1099/mgen.0.001632)
+- **Publication** — Carrillo et al. (2026). *Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics.* PLOS Biology. [DOI](https://doi.org/10.1371/journal.pbio.3003474)
+- **Software** — [CRESSENT](software/index.qmd#cressent): open-source ssDNA virus annotation toolkit (PyPI, Bioconda).
+- **Talk** — *CRESSENT: A Toolkit to Enhance ssDNA Virus Annotation.* Midwest Microbiome Symposium, Columbus, OH (2025).
+
+[See all publications →](publications/index.qmd) · [See all software →](software/index.qmd)
+
+## Latest from the blog
+
+::: {#latest-tutorials}
+:::
+
+[All tutorials →](tutorials/index.qmd) · [All data & statistics posts →](data-stats/index.qmd)
+
+## Let's talk
+
+I'm glad to hear from people exploring research collaborations, bioinformatics or data-science projects, scientific software, biomedical/microbiome data analysis, employment opportunities, or workshop/talk invitations.
+
+<a class="btn btn-accent btn-lg" href="contact/index.qmd" role="button">Get in touch</a>

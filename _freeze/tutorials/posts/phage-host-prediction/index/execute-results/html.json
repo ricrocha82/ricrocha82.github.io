@@ -1,0 +1,12 @@
+{
+  "hash": "31dd0f0a8ba4f6b96d2735c49cf2d993",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Practical Phage-Host Prediction Workflows\"\ndescription: \"Placeholder — Practical Phage-Host Prediction Workflows.\"\ndate: \"2026-12-31\"\ncategories: [Viromics, Bash]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## Problem\n[To be written]\n\n## Learning objectives\n- [To be written]\n\n## Prerequisites\n[To be written]\n\n## Conceptual explanation\n[To be written]\n\n## Reproducible example\n[Simulated or public dataset only — to be written]\n\n## Code\n\n\n## Output\n[To be written]\n\n## Interpretation\n[To be written]\n\n## Common errors\n[To be written]\n\n## Limitations\n[To be written]\n\n## References\n[To be written]\n\n## Environment\n```\n[To be written]\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

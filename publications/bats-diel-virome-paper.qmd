@@ -1,0 +1,17 @@
+---
+title: "Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics without community-level shifts"
+date: "2026-01-01"
+categories: [Viromics, Environmental Research]
+pub-type: "journal-article"
+first-author: false
+pub-journal: "PLOS Biology"
+doi: "10.1371/journal.pbio.3003474"
+---
+
+**Journal:** PLOS Biology · **Year:** 2026
+
+**My contribution:** Co-author. Contributed bioinformatic and statistical analysis of viral population dynamics.
+
+**Citation:** [@carrillo2026bats]
+
+[DOI: 10.1371/journal.pbio.3003474](https://doi.org/10.1371/journal.pbio.3003474)

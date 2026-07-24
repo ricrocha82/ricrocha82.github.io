@@ -16,4 +16,4 @@ I'm glad to hear from people exploring research collaborations, bioinformatics o
 - [Google Scholar](https://scholar.google.com/citations?user=C1NlocUAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0002-7878-2861)
 
-<a class="btn btn-accent btn-lg" href="mailto:{{< var email >}}">Email me</a>
+[Email me](mailto:{{< var email >}}){.btn .btn-accent .btn-lg}

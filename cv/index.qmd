@@ -3,15 +3,10 @@ title: "CV"
 description: "Web résumé summary and downloadable CV/résumé for Ricardo R. Pavan."
 ---
 
-<a class="btn btn-primary btn-lg" href="{{< var cv_pdf >}}">Download Academic CV (PDF)</a>
-<a class="btn btn-outline-secondary btn-lg" href="{{< var resume_pdf >}}">Download Industry Résumé (PDF)</a>
+[Download Academic CV (PDF)]({{< var cv_pdf >}}){.btn .btn-primary .btn-lg}
+[Download Industry Résumé (PDF)]({{< var resume_pdf >}}){.btn .btn-outline-secondary .btn-lg}
 
 *Last updated: {{< var cv_last_updated >}}*
-
-::: {.placeholder-note}
-[PLACEHOLDER] Upload the current PDF exports to `files/cv/` (see `_variables.yml` for the expected filenames) to activate these download buttons.
-:::
-
 ---
 
 ## Summary

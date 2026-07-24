@@ -74,7 +74,7 @@ Portuguese (native) · English (fluent) · Spanish (beginner) · Italian (beginn
 
 ## CV & résumé
 
-<a class="btn btn-primary" href="{{< var cv_pdf >}}">Download Academic CV (PDF)</a>
-<a class="btn btn-outline-secondary" href="{{< var resume_pdf >}}">Download Industry Résumé (PDF)</a>
+[Download Academic CV (PDF)]({{< var cv_pdf >}}){.btn .btn-primary}
+[Download Industry Résumé (PDF)]({{< var resume_pdf >}}){.btn .btn-outline-secondary}
 
 *Last updated: {{< var cv_last_updated >}}. See the [CV page](../cv/index.qmd) for a web-readable summary.*

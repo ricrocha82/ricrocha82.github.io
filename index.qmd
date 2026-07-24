@@ -25,18 +25,14 @@ listing:
 
 {{< var positioning_supporting >}}
 
-<div class="mt-3">
-<a class="btn btn-primary btn-lg me-2" href="projects/index.qmd" role="button">View Projects</a>
-<a class="btn btn-outline-secondary btn-lg" href="{{< var cv_pdf >}}" role="button">Download CV</a>
-</div>
+[View Projects](projects/index.qmd){.btn .btn-primary .btn-lg role="button"}
+[Download CV]({{< var cv_pdf >}}){.btn .btn-outline-secondary .btn-lg role="button"}
 
-<div class="mt-3">
-<a href="{{< var links.github >}}" aria-label="GitHub"><i class="bi bi-github"></i> GitHub</a> &nbsp;·&nbsp;
-<a href="{{< var links.linkedin >}}" aria-label="LinkedIn"><i class="bi bi-linkedin"></i> LinkedIn</a> &nbsp;·&nbsp;
-<a href="{{< var links.scholar >}}" aria-label="Google Scholar"><i class="bi bi-mortarboard"></i> Google Scholar</a> &nbsp;·&nbsp;
-<a href="{{< var links.orcid >}}" aria-label="ORCID">ORCID</a> &nbsp;·&nbsp;
-<a href="mailto:{{< var email >}}" aria-label="Email">Email</a>
-</div>
+[GitHub]({{< var links.github >}}) &nbsp;·&nbsp;
+[LinkedIn]({{< var links.linkedin >}}) &nbsp;·&nbsp;
+[Google Scholar]({{< var links.scholar >}}) &nbsp;·&nbsp;
+[ORCID]({{< var links.orcid >}}) &nbsp;·&nbsp;
+[Email](mailto:{{< var email >}})
 
 </div>
 <div class="col-md-4 hero-photo text-center">
@@ -172,4 +168,4 @@ I implement workflows in Nextflow and Snakemake, containerized with Docker/Appta
 
 I'm glad to hear from people exploring research collaborations, bioinformatics or data-science projects, scientific software, biomedical/microbiome data analysis, employment opportunities, or workshop/talk invitations.
 
-<a class="btn btn-accent btn-lg" href="contact/index.qmd" role="button">Get in touch</a>
+[Get in touch](contact/index.qmd){.btn .btn-accent .btn-lg role="button"}

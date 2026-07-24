@@ -2,7 +2,7 @@ name: Render and Deploy Quarto Site
 
 on:
   push:
-    branches: [main]     # deploys automatically when redesign work is merged into main
+    branches: [master]     # deploys automatically when redesign work is merged into main
   workflow_dispatch: {}   # allows manual runs from the Actions tab
 
 permissions:

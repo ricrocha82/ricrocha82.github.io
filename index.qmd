@@ -32,7 +32,7 @@ listing:
 [LinkedIn]({{< var links.linkedin >}}) &nbsp;·&nbsp;
 [Google Scholar]({{< var links.scholar >}}) &nbsp;·&nbsp;
 [ORCID]({{< var links.orcid >}}) &nbsp;·&nbsp;
-[Email](mailto:{{< var email >}})
+<a class="js-email" data-u="ricrocha82" data-d="gmail.com" href="#">Email</a>
 
 </div>
 <div class="col-md-4 hero-photo text-center">

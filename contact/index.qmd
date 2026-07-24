@@ -5,7 +5,7 @@ description: "Get in touch with Ricardo R. Pavan."
 
 I'm glad to hear from people exploring research collaborations, bioinformatics or data-science projects, scientific software, biomedical/microbiome data analysis, employment opportunities, or workshop/talk invitations.
 
-**Email:** [{{< var email >}}](mailto:{{< var email >}})
+**Email:** <a class="js-email" data-u="ricrocha82" data-d="gmail.com" href="#">ricrocha82 [at] gmail [dot] com</a>
 
 **Current institution:** {{< var institution >}}, {{< var location >}}
 
@@ -16,4 +16,4 @@ I'm glad to hear from people exploring research collaborations, bioinformatics o
 - [Google Scholar](https://scholar.google.com/citations?user=C1NlocUAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0002-7878-2861)
 
-[Email me](mailto:{{< var email >}}){.btn .btn-accent .btn-lg}
+<a class="js-email btn btn-accent btn-lg" data-u="ricrocha82" data-d="gmail.com" href="#">Email me</a>

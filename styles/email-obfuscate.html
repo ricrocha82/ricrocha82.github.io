@@ -1,0 +1,20 @@
+<script>
+// Assembles mailto: links at render time so the plain address isn't sitting
+// in the raw page source for simple scrapers to harvest. Real visitors see
+// a normal, fully clickable email link; screen readers and keyboard nav are
+// unaffected since this only fills in the href/text, it doesn't change the
+// element itself.
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.js-email').forEach(function (el) {
+    var u = el.getAttribute('data-u');
+    var d = el.getAttribute('data-d');
+    if (u && d) {
+      var addr = u + '@' + d;
+      el.setAttribute('href', 'mailto:' + addr);
+      if (!el.textContent.trim()) {
+        el.textContent = addr;
+      }
+    }
+  });
+});
+</script>

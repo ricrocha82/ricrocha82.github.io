@@ -53,9 +53,6 @@ website:
     left: "© 2026 Ricardo R. Pavan. Content licensed CC BY-NC-ND 4.0."
     center: "Built with [Quarto](https://quarto.org)."
     right:
-      - icon: envelope
-        href: mailto:ricrocha82@gmail.com
-        aria-label: Email
       - icon: github
         href: https://github.com/ricrocha82
         aria-label: GitHub
@@ -104,6 +101,8 @@ format:
     linkcolor: "#0B6E6E"
     include-in-header:
       - styles/head-meta.html
+    include-after-body:
+      - styles/email-obfuscate.html
 
 execute:
   freeze: auto

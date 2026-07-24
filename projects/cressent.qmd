@@ -1,0 +1,63 @@
+---
+title: "CRESSENT"
+description: "A modular bioinformatics toolkit for annotation and analysis of CRESS DNA viruses."
+date: "2026-01-01"
+image-alt: "CRESSENT project thumbnail"
+image: "../images/projects/cressent.png"
+categories: [Bioinformatics Software, Viromics, Environmental Research]
+status: "Published"
+---
+
+## Overview
+CRESSENT is an open-source, modular bioinformatics toolkit for the discovery, annotation, and ecological analysis of circular Rep-encoding single-stranded (CRESS) DNA viruses from metagenomic data. It combines sequence annotation, motif detection, recombination analysis, and phylogenetics in one reproducible, installable package.
+
+## Scientific or practical problem
+CRESS DNA viruses (ssDNA viruses) are abundant and ecologically important across environments, but consistent, reproducible annotation of their genomes — origin-of-replication motifs, stem-loops, iterons, recombination signals — has lacked a dedicated, standardized toolkit. Researchers were largely relying on ad hoc scripts.
+
+## My role
+**Lead developer.** I designed and implemented CRESSENT end to end: core Python and R modules, the command-line interface, the analysis modules described below, the test suite, documentation, packaging, and distribution. I also led the associated manuscript.
+
+## Dataset or data type
+Metagenome-assembled CRESS DNA virus genomes and reference sequences (public/community datasets used for benchmarking).
+
+## Methods and technologies
+- Python and R implementation, packaged as a command-line tool
+- Motif analysis (origin-of-replication motifs)
+- Recombination analysis
+- Stem-loop detection
+- Iteron analysis
+- Sequence logo generation
+- Automated test suite and continuous integration
+- Packaging and distribution via **PyPI** and **Bioconda**
+- Benchmarking against existing methods
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[CRESS virus genomes] --> B[Motif & structural analysis]
+  B --> C[Recombination detection]
+  C --> D[Annotated genome + sequence logos]
+  D --> E[Ecological / comparative analysis]
+```
+
+## Major results or outputs
+An installable, tested, documented toolkit released publicly on PyPI and Bioconda, described in a peer-reviewed methods paper: Pavan, R.R., Sullivan, M.B. and Tisza, M. (2026). *CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation.* Microbial Genomics, 12:001632.
+
+## Challenges and decisions
+Balancing biological accuracy (motif/structural detection in short, variable ssDNA genomes) against usability for non-specialist users — this shaped the decision to provide both a scriptable API and a simple CLI, and to invest early in automated testing so annotation logic changes couldn't silently break results.
+
+## Publications
+Pavan, R.R., Sullivan, M.B. and Tisza, M., 2026. CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. *Microbial Genomics*, 12:001632. [https://doi.org/10.1099/mgen.0.001632](https://doi.org/10.1099/mgen.0.001632)
+
+## Code and documentation
+- Repository: [github.com/ricrocha82/cressent](https://github.com/ricrocha82/cressent)
+- Package: PyPI and Bioconda *(add direct package links when confirmed)*
+
+## Collaborators
+Developed in collaboration with the Sullivan Lab (The Ohio State University) and colleagues; manuscript co-authored with M.B. Sullivan and M. Tisza.
+
+## Current status
+Published and actively maintained.
+
+## Limitations or confidentiality note
+None — this is fully public, published work.

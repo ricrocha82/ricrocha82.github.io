@@ -1,0 +1,17 @@
+---
+title: "Network and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient"
+date: "2022-01-01"
+categories: [Environmental Research, Machine Learning]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Estuarine, Coastal and Shelf Science"
+doi: ""
+---
+
+**Journal:** Estuarine, Coastal and Shelf Science · **Year:** 2022
+
+**My contribution:** Lead author (PhD research). Network analysis and machine learning applied to estuarine microbial gradient data.
+
+**Citation:** [@dasilva2022network]
+
+[Link](https://www.sciencedirect.com/science/article/pii/S0272771422002840)

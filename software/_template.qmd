@@ -1,0 +1,30 @@
+---
+title: "[Software Name] — entry"
+---
+<!-- This file is not rendered as a standalone page by default (see _quarto.yml render excludes).
+     Use this content as a block to paste into software/index.qmd, or convert this project
+     to one-qmd-per-software-entry with a listing if the software section grows large. -->
+
+**Purpose:** [what problem it solves]
+
+**My role:** [Lead developer / Contributor / Maintainer]
+
+**Languages:** [Python, R, etc.]
+
+**Status:** `Active` | `In development` | `Archived`
+
+**Documentation:** [link]
+
+**Repository:** [link]
+
+**Installation:** [pip/conda/etc. command]
+
+**Citation:** [related publication citation, if any]
+
+**License:** [license name]
+
+**Tests:** [testing framework / CI badge]
+
+**Releases:** [link to releases page]
+
+**Related publication:** [link]

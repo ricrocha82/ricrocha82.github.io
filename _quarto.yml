@@ -1,0 +1,114 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!README.md"
+    - "!**/_template.qmd"
+
+website:
+  title: "Ricardo R. Pavan"
+  description: "Bioinformatics and data science researcher developing reproducible computational methods for microbiome, virome, and biomedical research."
+  site-url: "https://ricrocha82.github.io"
+  repo-url: "https://github.com/ricrocha82/ricrocha82.github.io"
+  favicon: images/favicon.png
+  page-navigation: true
+  bread-crumbs: false
+  reader-mode: false
+
+  navbar:
+    background: primary
+    pinned: true
+    logo: images/favicon.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about/index.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - text: "Tutorials & Data"
+        menu:
+          - href: tutorials/index.qmd
+            text: "Bioinformatics Tutorials"
+          - href: data-stats/index.qmd
+            text: "Data & Statistics"
+      - href: publications/index.qmd
+        text: Publications
+      - href: software/index.qmd
+        text: Software
+      - href: cv/index.qmd
+        text: CV
+      - href: contact/index.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/ricrocha82
+        aria-label: GitHub profile
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ricardorochaps/
+        aria-label: LinkedIn profile
+
+  page-footer:
+    left: "© 2026 Ricardo R. Pavan. Content licensed CC BY-NC-ND 4.0."
+    center: "Built with [Quarto](https://quarto.org)."
+    right:
+      - icon: envelope
+        href: mailto:ricrocha82@gmail.com
+        aria-label: Email
+      - icon: github
+        href: https://github.com/ricrocha82
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ricardorochaps/
+        aria-label: LinkedIn
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=C1NlocUAAAAJ&hl=en
+        aria-label: Google Scholar
+      - text: "ORCID"
+        href: https://orcid.org/0000-0002-7878-2861
+        aria-label: ORCID
+
+  google-analytics:
+    tracking-id: ""            # [PLACEHOLDER] leave empty to keep analytics OFF (see docs/PRIVACY.md)
+    anonymize-ip: true
+
+  open-graph:
+    locale: en_US
+    site-name: "Ricardo R. Pavan — Bioinformatics"
+
+  twitter-card:
+    creator: ""                # [PLACEHOLDER] add handle if desired
+    image: images/social-card.png
+
+  sidebar: false
+
+format:
+  html:
+    theme:
+      light: [flatly, styles/theme-light.scss]
+      dark: [darkly, styles/theme-dark.scss]
+    css: styles/custom.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    code-link: true
+    highlight-style: github
+    smooth-scroll: false        # respects prefers-reduced-motion by default
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+    fontsize: 1.05rem
+    linkcolor: "#0B6E6E"
+    include-in-header:
+      - styles/head-meta.html
+
+execute:
+  freeze: auto
+
+bibliography: publications/references.bib
+csl: publications/apa.csl
+
+editor: visual

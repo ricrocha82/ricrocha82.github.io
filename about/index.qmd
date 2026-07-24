@@ -1,0 +1,80 @@
+---
+title: "About"
+description: "Career narrative, education, and background of Ricardo R. Pavan"
+---
+
+## Professional biography
+
+My path into bioinformatics started in the water, not at a computer. During my PhD at the **Institute for Marine and Antarctic Studies, University of Tasmania**, I studied how environmental gradients and aquaculture shape microbial communities in Macquarie Harbour, a stratified, low-oxygen estuary. That work meant spending as much time thinking about sampling design, oxygen gradients, and multivariate ecology as about code — and it's where I first used network analysis and machine learning to pull structure out of large, noisy environmental datasets.
+
+Wanting to strengthen the statistical and analytical side of that work, I completed an **MBA in Data Science and Analytics** (University of São Paulo) alongside my PhD, focused on applying data analysis techniques to microbial environmental ecology.
+
+That combination — ecological training plus applied statistics — carried directly into bioinformatics. As a **Postdoctoral Researcher in Bioinformatics at The Ohio State University** since 2023, my focus shifted from single environmental systems to methods that generalize: reproducible pipelines for viral and microbial genome recovery (CRESSENT, VirION3), statistical frameworks for microbiome and virome datasets across very different contexts (marine time series, clinical cohorts, animal models), and the cyberinfrastructure that lets those pipelines run reliably on shared HPC systems (CyVerse, ACCESS, Tapis).
+
+Increasingly, that also means building tools that other researchers can install and trust — not just analyses I run once. CRESSENT, released on PyPI and Bioconda with tests and documentation, reflects that shift toward software engineering discipline applied to research code. And most recently, that has extended to evaluating where AI-assisted methods genuinely help microbiome and viromics research, versus where they don't.
+
+## Current role
+
+**{{< var role_current >}}**, {{< var institution >}} — {{< var location >}} (May 2023 – present)
+
+## Research interests
+
+- Reproducible bioinformatics pipelines for microbiome and virome data (Nextflow, Snakemake)
+- Viral genome recovery from long-read, short-read, and hybrid sequencing
+- Statistical modeling of high-dimensional ecological and biomedical data
+- Scientific software engineering: packaging, testing, and distributing research tools
+- Research cyberinfrastructure and HPC-enabled reproducibility
+- Applied machine learning for classification, dimensionality reduction, and biomarker discovery
+- Practical, evidence-based uses of AI in microbiome and viromics research
+
+## Technical approach
+
+I try to treat analysis code the way I'd want to receive it from someone else: version-controlled, documented, tested where it matters, and runnable by someone who wasn't in the room when I wrote it. In practice that means containerizing dependencies (Docker/Apptainer + Conda), defining workflows explicitly (Nextflow/Snakemake) rather than as a sequence of manual steps, and separating exploratory analysis (Jupyter/Quarto notebooks) from production pipeline code.
+
+## Career timeline
+
+```{mermaid}
+%%| fig-width: 7
+timeline
+    title Career Progression
+    2005 : BSc, Biological Sciences — University of Brasília
+    2009 : MSc, Animal Biology — University of Brasília
+    2016 – 2018 : Project Analyst — Brazilian Ministry of Science and Technology
+    2018 – 2022 : PhD, Biological Sciences — University of Tasmania (IMAS)
+    2020 – 2023 : MBA, Data Science & Analytics — University of São Paulo
+    2023 – present : Postdoctoral Researcher, Bioinformatics — The Ohio State University
+```
+
+## Education
+
+**PhD, Biological Sciences** — Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, Australia (2018–2022)
+Thesis: *The pelagic microbial community of Macquarie Harbour, Tasmania: ecology and response to aquaculture.* [DOI](https://doi.org/10.25959/24165534)
+
+**MBA, Data Science and Analytics** — University of São Paulo, Brazil (2020–2023)
+Thesis: *Unveiling microbial environmental ecology through data analysis techniques.*
+
+**MSc, Animal Biology** — University of Brasília, Brazil (2009)
+
+**BSc, Biological Sciences** — University of Brasília, Brazil (2005)
+
+## Selected professional service
+
+- Lead contributor, OSU Microbiome Working Group (20+ researchers) — [Microbiome Bioinformatics Helpline](https://coms.osu.edu/microbiome-bioinformatics-helpline)
+- Peer reviewer for scientific journals
+- Presenter — Midwest Microbiome Symposium (2025); CoMS-GSU Symposium (2026); OSU workshops; IMAS seminars
+
+::: {.callout-note collapse="true"}
+## International science & policy experience (2016–2018)
+Before my PhD, I worked as a Project Analyst at the **Brazilian Ministry of Science and Technology**, supporting science policy, strategic program management, and international scientific cooperation — including technical review of funding proposals, coordination through multilateral initiatives, and cross-cutting work on environmental governance and climate change. This experience is secondary to my current bioinformatics focus but shaped how I communicate technical work to non-technical stakeholders.
+:::
+
+## Languages
+
+Portuguese (native) · English (fluent) · Spanish (beginner) · Italian (beginner)
+
+## CV & résumé
+
+<a class="btn btn-primary" href="{{< var cv_pdf >}}">Download Academic CV (PDF)</a>
+<a class="btn btn-outline-secondary" href="{{< var resume_pdf >}}">Download Industry Résumé (PDF)</a>
+
+*Last updated: {{< var cv_last_updated >}}. See the [CV page](../cv/index.qmd) for a web-readable summary.*

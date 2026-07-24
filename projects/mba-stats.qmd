@@ -1,0 +1,61 @@
+---
+title: "Statistics and Data Analysis — MBA"
+description: "Applied statistics and machine learning coursework/thesis applying data-driven methods to environmental ecology questions."
+date: "2023-01-01"
+image-alt: "Statistics and data analysis MBA project thumbnail"
+image: "../images/projects/mba-stats.png"
+categories: [Machine Learning, Data Visualization]
+status: "Completed"
+---
+
+## Overview
+An MBA in Data Science and Analytics (University of São Paulo), completed alongside my PhD, applying statistical and machine learning methods to microbial environmental ecology questions.
+
+## Scientific or practical problem
+Ecological datasets are often high-dimensional and noisy; extracting valid, generalizable patterns requires rigorous statistical and machine learning practice — not just running models, but validating them appropriately.
+
+## My role
+**Student researcher — self-directed thesis and coursework.**
+
+## Dataset or data type
+Environmental/microbial ecology datasets from my PhD research, reanalyzed with a broader statistical/ML toolkit.
+
+## Methods and technologies
+- Exploratory data analysis and data visualization
+- Multivariate statistical analysis
+- Regression and predictive modeling
+- Machine learning for classification and feature selection
+- Principal component analysis and dimensionality reduction
+- Clustering and pattern recognition
+- Model validation and performance evaluation
+- R, Python, and reproducible analytical workflows
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Raw dataset] --> B[EDA & visualization]
+  B --> C[Feature selection / dimensionality reduction]
+  C --> D[Model training: regression / classification / clustering]
+  D --> E[Validation & performance evaluation]
+```
+
+## Major results or outputs
+Thesis: *Unveiling microbial environmental ecology through data analysis techniques.*
+
+## Challenges and decisions
+Applying formal model-validation practice (cross-validation, held-out testing) to ecological data with limited sample sizes — a discipline that has carried into my subsequent bioinformatics work.
+
+## Publications
+MBA thesis (not separately peer-reviewed).
+
+## Code and documentation
+Not publicly released.
+
+## Collaborators
+Independent coursework/thesis; supervised at University of São Paulo, Luiz de Queiroz College of Agriculture (ESALQ/USP).
+
+## Current status
+Completed (2023).
+
+## Limitations or confidentiality note
+None.

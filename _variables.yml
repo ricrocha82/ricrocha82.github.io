@@ -1,0 +1,40 @@
+# =============================================================================
+# SINGLE SOURCE OF TRUTH for reusable text across the site.
+# Edit values here and reference them anywhere with {{< var key >}}
+# e.g. {{< var email >}} or {{< var links.github >}}
+# After editing this file, run `quarto render` to update every page.
+# =============================================================================
+
+name: "Ricardo R. Pavan"
+name_short: "Ricardo Pavan"
+title: "Bioinformatics Scientist"
+subtitle: "Microbiome, Viromics & Reproducible Data Science"
+
+positioning_short: >-
+  Bioinformatics and data science researcher developing reproducible
+  computational methods for microbiome, virome, and biomedical research.
+
+positioning_supporting: >-
+  I develop reproducible bioinformatics pipelines and statistical/machine
+  learning methods for microbiome, virome, and biomedical data — from raw
+  sequencing reads to publication-ready results.
+
+institution: "The Ohio State University"
+role_current: "Postdoctoral Researcher, Bioinformatics"
+location: "Columbus, OH, USA"
+
+email: "ricrocha82@gmail.com"
+
+links:
+  github: "https://github.com/ricrocha82"
+  github_cressent: "https://github.com/ricrocha82/cressent"
+  linkedin: "https://www.linkedin.com/in/ricardorochaps/"
+  scholar: "https://scholar.google.com/citations?user=C1NlocUAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0002-7878-2861"
+
+# --- PLACEHOLDERS: fill in when available, then remove the "[PLACEHOLDER]" tag ---
+cv_pdf: "/files/cv/RicardoPavan_CV_2026.pdf"           # [PLACEHOLDER] upload real PDF export here
+resume_pdf: "/files/cv/RicardoPavan_Resume_2026.pdf"   # [PLACEHOLDER] upload real PDF export here
+cv_last_updated: "2026-07-24"                           # [PLACEHOLDER] update when CV changes
+
+site_url: "https://ricrocha82.github.io"

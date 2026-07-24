@@ -1,0 +1,17 @@
+---
+title: "Effects of finfish farms on pelagic protist communities in a semi-closed stratified embayment"
+date: "2022-01-01"
+categories: [Environmental Research]
+pub-type: "preprint"
+first-author: true
+pub-journal: "bioRxiv (preprint)"
+doi: "10.1101/2022.08.08.503163"
+---
+
+**Journal:** bioRxiv (preprint) · **Year:** 2022
+
+**My contribution:** Lead author (PhD research).
+
+**Citation:** [@dasilva2022protist]
+
+[DOI: 10.1101/2022.08.08.503163](https://doi.org/10.1101/2022.08.08.503163)

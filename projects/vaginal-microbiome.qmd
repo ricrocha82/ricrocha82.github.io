@@ -1,0 +1,59 @@
+---
+title: "Vaginal Microbiome in Pregnancy and HIV"
+description: "16S-based meta-analysis of the vaginal microbiome in pregnant people living with HIV."
+date: "2026-02-01"
+image-alt: "Vaginal microbiome study project thumbnail"
+image: "../images/projects/vaginal-microbiome.png"
+categories: [Microbiome, Biomedical Research]
+status: "Published"
+---
+
+## Overview
+A pilot study and global meta-analysis of the vaginal microbiome in pregnant people living with HIV on antiretroviral therapy, examining community state types, host immune mediators, and associations with adverse reproductive outcomes.
+
+## Scientific or practical problem
+The vaginal microbiome is linked to reproductive health outcomes, but data integration across studies of pregnant people living with HIV has been limited. This project combined a pilot cohort with a broader meta-analysis to look for consistent microbiome–immune associations.
+
+## My role
+**Statistical analysis.** I designed and executed the statistical analysis plan for a human cohort (82 pregnant people living with HIV) together with a global meta-analysis (1,800+ samples), applying compositional data analysis, regression, non-parametric testing, batch correction, and differential abundance analysis.
+
+## Dataset or data type
+16S rRNA amplicon sequencing data from a pilot cohort (Democratic Republic of Congo) integrated with publicly available vaginal microbiome datasets for meta-analysis, alongside host immune mediator measurements.
+
+## Methods and technologies
+- 16S amplicon analysis and functional prediction
+- Compositional data analysis
+- Batch correction across integrated datasets
+- Regression and non-parametric statistical testing
+- Differential abundance analysis
+- Integration of microbiome and host immune-mediator data
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Pilot cohort 16S data] --> C[Batch-corrected integration]
+  B[Public meta-analysis datasets] --> C
+  C --> D[Compositional / differential abundance analysis]
+  D --> E[Microbiome-immune association testing]
+```
+
+## Major results or outputs
+Published pilot study and meta-analysis identifying associations between vaginal community state types, inflammatory immune mediators, and reproductive outcomes in this population.
+
+## Challenges and decisions
+Integrating multiple independently generated 16S datasets required batch-effect correction before any cross-cohort comparison could be trusted — a key methodological decision that shaped the whole analysis plan.
+
+## Publications
+Ndlovu, K.S., Pavan, R.R., Corry, J., Gregory, A.C., Mahamed, S., Zotova, N., Tabala, M., Babakazo, P., Funderburg, N.T., Yotebieng, M. and Klatt, N.R., 2026. The vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the Democratic Republic of Congo: a pilot study and global meta-analysis. *mSphere*, e00597-25. [https://doi.org/10.1128/msphere.00597-25](https://doi.org/10.1128/msphere.00597-25)
+
+## Code and documentation
+Analysis code repository link pending.
+
+## Collaborators
+Collaborative study led by K.S. Ndlovu and colleagues (Klatt Lab); statistical analysis contributed by R.R. Pavan. Participant-level information is not disclosed, consistent with the published study's ethical approvals.
+
+## Current status
+Published (2026).
+
+## Limitations or confidentiality note
+No participant-identifying information is presented here; all details reflect what is reported in the published paper.

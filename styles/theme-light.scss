@@ -1,0 +1,162 @@
+/*-- scss:defaults --*/
+// =============================================================================
+// COLOR PALETTE — restrained, science/data inspired (deep teal + warm coral
+// accent). No gradients, no neon, no "aquarium" look.
+// =============================================================================
+$teal-900:   #0a3a3f;
+$teal-700:   #0b6e6e;
+$teal-500:   #1c8f8a;
+$teal-100:   #e6f2f1;
+$coral-500:  #d9603b;   // sparing accent: CTAs, links on hover
+$ink-900:    #16221f;   // near-black text, not pure black
+$gray-700:   #48524f;
+$gray-300:   #d7dedb;
+$gray-100:   #f6f8f7;
+$bg:         #ffffff;
+
+$primary:    $teal-700;
+$secondary:  $teal-900;
+$body-color: $ink-900;
+$body-bg:    $bg;
+$link-color: $teal-700;
+
+// Typography scale
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-serif: "Source Serif 4", Georgia, serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-color: $teal-900;
+
+$font-size-root: 17px;
+$h1-font-size: 2.4rem;
+$h2-font-size: 1.85rem;
+$h3-font-size: 1.4rem;
+$h4-font-size: 1.15rem;
+
+$line-height-base: 1.65;
+
+// Spacing
+$spacer: 1rem;
+
+// Code
+$code-bg: #f2f6f5;
+$code-color: #0a3a3f;
+
+// Navbar
+$navbar-bg: $teal-900;
+$navbar-fg: #ffffff;
+$navbar-hl: $coral-500;
+
+/*-- scss:rules --*/
+:root {
+  --brand-teal-900: #{$teal-900};
+  --brand-teal-700: #{$teal-700};
+  --brand-teal-100: #{$teal-100};
+  --brand-coral: #{$coral-500};
+  --card-radius: 10px;
+  --card-shadow: 0 1px 3px rgba(10, 58, 63, 0.10), 0 1px 2px rgba(10, 58, 63, 0.06);
+}
+
+body { letter-spacing: 0.1px; }
+
+h1, h2, h3, h4 { line-height: 1.25; }
+
+// Buttons
+.btn-primary {
+  background-color: $teal-700;
+  border-color: $teal-700;
+  &:hover, &:focus { background-color: $teal-900; border-color: $teal-900; }
+}
+.btn-accent {
+  background-color: $coral-500;
+  border-color: $coral-500;
+  color: #fff;
+  &:hover, &:focus { background-color: darken($coral-500, 8%); color: #fff; }
+}
+
+// Focus visibility (accessibility requirement)
+a:focus-visible, button:focus-visible, .btn:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid $coral-500;
+  outline-offset: 2px;
+}
+
+// Cards (projects, publications, software, tutorials)
+.card, .quarto-grid-item {
+  border: 1px solid $gray-300;
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .card, .quarto-grid-item { transition: none; }
+}
+.card:hover, .quarto-grid-item:hover {
+  box-shadow: 0 4px 14px rgba(10, 58, 63, 0.14);
+}
+
+// Tag chips (technology / category tags)
+.tag-chip {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  border-radius: 999px;
+  background: $teal-100;
+  color: $teal-900;
+  border: 1px solid rgba(10, 58, 63, 0.15);
+}
+
+// Placeholder / draft banner
+.placeholder-note {
+  background: #fff6ec;
+  border-left: 4px solid $coral-500;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.92rem;
+  margin: 1rem 0;
+}
+
+// Hero section (homepage)
+.hero {
+  padding: 3rem 0 2rem 0;
+  border-bottom: 1px solid $gray-300;
+}
+.hero .hero-photo img {
+  border-radius: 50%;
+  border: 4px solid $teal-100;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.hero h1 { margin-bottom: 0.1rem; }
+.hero .hero-subtitle {
+  font-size: 1.15rem;
+  color: $teal-700;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+// Expertise cards
+.expertise-card {
+  padding: 1.25rem;
+  height: 100%;
+  border-radius: var(--card-radius);
+  background: $gray-100;
+  border: 1px solid $gray-300;
+}
+
+// Code blocks
+pre.sourceCode { border-radius: 8px; border: 1px solid $gray-300; }
+
+// Skip link for keyboard users
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: $teal-900;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  z-index: 2000;
+}
+.skip-link:focus { left: 1rem; top: 1rem; }

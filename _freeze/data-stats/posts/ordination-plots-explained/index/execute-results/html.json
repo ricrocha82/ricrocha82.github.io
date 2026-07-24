@@ -1,0 +1,12 @@
+{
+  "hash": "97cd4fa89c84c193196c202e6e6019ce",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Ordination Plots for Microbiome Data, Explained\"\ndescription: \"Placeholder — Ordination Plots for Microbiome Data, Explained.\"\ndate: \"2026-12-31\"\ncategories: [Statistics, Ecology]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## The analytical question\n[To be written]\n\n## Data source\n[Public or simulated dataset only — to be written]\n\n## Data cleaning\n[To be written]\n\n## Statistical method\n[To be written]\n\n## Visualization\n\n\n## Interpretation\n[To be written]\n\n## Assumptions\n[To be written]\n\n## Limitations\n[To be written]\n\n## Reproducibility\n[To be written]\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

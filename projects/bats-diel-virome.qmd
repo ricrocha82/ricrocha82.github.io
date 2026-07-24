@@ -1,0 +1,60 @@
+---
+title: "BATS Diel Virome"
+description: "A sub-daily marine viral metagenomic time series at the Bermuda Atlantic Time Series site."
+date: "2026-03-01"
+image-alt: "BATS diel virome project thumbnail"
+image: "../images/projects/bats-diel-virome.png"
+categories: [Viromics, Environmental Research, Machine Learning]
+status: "Published"
+---
+
+## Overview
+A sub-daily (diel) viral metagenomic time series at the **Bermuda Atlantic Time Series (BATS)** site, resolving depth- and time-stratified viral population dynamics, host predictions, and auxiliary metabolic gene profiles in an oligotrophic ocean gyre.
+
+## Scientific or practical problem
+Viral population dynamics in the ocean are typically sampled at daily-to-monthly resolution, which can miss rapid, sub-daily (diel) rhythms driven by light, host physiology, and depth stratification. This project asked whether — and how — viral populations shift across a single day at different depths.
+
+## My role
+**Co-lead**, contributing to bioinformatic and statistical analysis: viral operational taxonomic unit (vOTU) profiling, host prediction, and time-series/ecological interpretation.
+
+## Dataset or data type
+High-frequency (sub-daily) viral metagenomic sampling across multiple depths at the BATS site.
+
+## Methods and technologies
+- Viral metagenomic assembly and vOTU clustering
+- Depth- and time-stratified population analysis
+- Host prediction
+- Auxiliary metabolic gene (AMG) profiling
+- Time-series and diel-rhythmicity statistical analysis
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Sub-daily depth-stratified samples] --> B[Viral metagenomic assembly]
+  B --> C[vOTU clustering]
+  C --> D[Host prediction]
+  C --> E[AMG profiling]
+  D --> F[Diel / depth pattern analysis]
+  E --> F
+```
+
+## Major results or outputs
+Published findings that viral populations show diel- and depth-structured dynamics at BATS **without** major shifts at the whole-community level — published in *PLOS Biology*.
+
+## Challenges and decisions
+Distinguishing genuine diel/depth signal from sampling noise in a high-frequency time series required careful statistical framing (e.g., separating population-level from community-level shifts).
+
+## Publications
+Carrillo, A., Hageman, E., Chittick, L., Mackey, A.I., Ndlovu, K.S., Tian, F., Gilbert, N.E., Muratore, D., Vik, D., LeCleir, G.R., Sun, C. et al. (co-authored, incl. R.R. Pavan), 2026. Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics without community-level shifts. *PLOS Biology*, 24(3), e3003474. [https://doi.org/10.1371/journal.pbio.3003474](https://doi.org/10.1371/journal.pbio.3003474)
+
+## Code and documentation
+Repository link pending.
+
+## Collaborators
+Multi-institution collaboration led within the Sullivan Lab network; co-authored with A. Carrillo and colleagues.
+
+## Current status
+Published (2026); related follow-up analyses ongoing.
+
+## Limitations or confidentiality note
+None — this is published work; details beyond the paper's scope are omitted for brevity, not confidentiality.

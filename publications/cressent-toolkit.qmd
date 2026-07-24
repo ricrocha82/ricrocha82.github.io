@@ -1,0 +1,17 @@
+---
+title: "CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation"
+date: "2026-01-01"
+categories: [Viromics, Bioinformatics Software]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Microbial Genomics"
+doi: "10.1099/mgen.0.001632"
+---
+
+**Journal:** Microbial Genomics · **Year:** 2026
+
+**My contribution:** Lead author. Designed, developed, tested, and documented the CRESSENT toolkit; led the manuscript.
+
+**Citation:** [@pavan2026cressent]
+
+[DOI: 10.1099/mgen.0.001632](https://doi.org/10.1099/mgen.0.001632) · [Code](https://github.com/ricrocha82/cressent)

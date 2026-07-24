@@ -1,0 +1,17 @@
+---
+title: "The vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the Democratic Republic of Congo: a pilot study and global meta-analysis"
+date: "2026-01-01"
+categories: [Microbiome, Biomedical Research]
+pub-type: "journal-article"
+first-author: false
+pub-journal: "mSphere"
+doi: "10.1128/msphere.00597-25"
+---
+
+**Journal:** mSphere · **Year:** 2026
+
+**My contribution:** Co-author. Designed and executed the statistical analysis plan (compositional analysis, regression, batch correction, differential abundance).
+
+**Citation:** [@ndlovu2026vaginal]
+
+[DOI: 10.1128/msphere.00597-25](https://doi.org/10.1128/msphere.00597-25)

@@ -1,0 +1,58 @@
+---
+title: "CV"
+description: "Web résumé summary and downloadable CV/résumé for Ricardo R. Pavan."
+---
+
+<a class="btn btn-primary btn-lg" href="{{< var cv_pdf >}}">Download Academic CV (PDF)</a>
+<a class="btn btn-outline-secondary btn-lg" href="{{< var resume_pdf >}}">Download Industry Résumé (PDF)</a>
+
+*Last updated: {{< var cv_last_updated >}}*
+
+::: {.placeholder-note}
+[PLACEHOLDER] Upload the current PDF exports to `files/cv/` (see `_variables.yml` for the expected filenames) to activate these download buttons.
+:::
+
+---
+
+## Summary
+
+Bioinformatics scientist with PhD-level training in high-throughput biological data and applied statistics, specializing in statistical modeling, machine learning, pipeline development, and reproducible large-scale data analysis. Track record of peer-reviewed publications, open-source scientific software (CRESSENT), and collaboration across marine ecology, virology, and biomedical research contexts.
+
+## Experience
+
+**Postdoctoral Researcher, Bioinformatics** — The Ohio State University · May 2023 – present
+: Reproducible viral/microbiome bioinformatics pipelines (CRESSENT, VirION3), statistical analysis for microbiome and virome datasets, cyberinfrastructure integration (CyVerse/ACCESS/Tapis), mentoring.
+
+**Doctoral Researcher** — University of Tasmania (IMAS) · Nov 2018 – Apr 2022
+: Marine microbial ecology, 16S/18S sequencing, network analysis and machine learning, environmental gradient analysis.
+
+**Project Analyst** — Brazilian Ministry of Science and Technology · Mar 2016 – Nov 2018
+: Science policy, strategic program management, international scientific cooperation.
+
+## Education
+
+- PhD, Biological Sciences — University of Tasmania (2018–2022)
+- MBA, Data Science and Analytics — University of São Paulo (2020–2023)
+- MSc, Animal Biology — University of Brasília (2009)
+- BSc, Biological Sciences — University of Brasília (2005)
+
+## Grants & funding
+
+- Co-Principal Investigator Award, DOE Joint Genome Institute (JGI) Community Science Program
+- Postdoctoral Award, W.K. Kellogg Foundation OK-PROS Program
+- PhD Scholarship, Tasmania Graduate Research Scholarship (TGRS)
+
+## Selected publications
+
+See the full [Publications](../publications/index.qmd) page for the complete, filterable list with DOIs.
+
+## Technical skills
+
+**Languages & tools:** Python, R, Bash, SQL, Git/GitHub
+**Pipelines & orchestration:** Nextflow, Snakemake
+**HPC & infrastructure:** Slurm, Docker, Apptainer/Singularity, Conda, CyVerse, ACCESS, Tapis
+**Analysis environments:** Jupyter, Quarto
+**Sequencing data:** Illumina, Oxford Nanopore, PacBio; 16S amplicon, shotgun metagenomics, viromics, bulk and single-cell/single-nucleus RNA-seq
+**Statistics & ML:** Regression, classification, clustering, dimensionality reduction, mixed-effects models, time-series analysis
+
+For the full narrative version of my background, see [About](../about/index.qmd).

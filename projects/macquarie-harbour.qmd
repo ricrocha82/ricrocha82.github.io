@@ -1,0 +1,65 @@
+---
+title: "Macquarie Harbour Microbial Ecology"
+description: "PhD research on marine microbial ecology along environmental gradients in a stratified Tasmanian estuary."
+date: "2022-01-01"
+image-alt: "Macquarie Harbour microbial ecology project thumbnail"
+image: "../images/projects/macquarie-harbour.png"
+categories: [Environmental Research, Machine Learning, Data Visualization]
+status: "Published"
+---
+
+## Overview
+My PhD research at the University of Tasmania characterized the pelagic microbial community of Macquarie Harbour — a highly stratified, low-oxygen estuary — and its response to environmental gradients and salmon aquaculture.
+
+## Scientific or practical problem
+Coastal aquaculture can alter microbial communities, but disentangling aquaculture effects from strong natural gradients (oxygen, salinity stratification) in an already extreme estuarine system is analytically challenging.
+
+## My role
+**Lead researcher (PhD).** I designed the sampling and analysis approach, generated and analyzed 16S/18S rRNA sequencing data, and led all statistical and machine learning analyses and resulting publications.
+
+## Dataset or data type
+16S and 18S rRNA amplicon sequencing across spatial and depth gradients in Macquarie Harbour, paired with environmental (oxygen, salinity, nutrient) measurements.
+
+## Methods and technologies
+- 16S/18S amplicon sequencing and community profiling
+- Network analysis of microbial co-occurrence
+- Machine learning (random forest classification and regression) for biomarker/indicator identification
+- Multivariate statistics: PCA, PERMANOVA, distance-based redundancy analysis (db-RDA)
+- Spatial and gradient-based ecological modeling
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[16S/18S sequencing] --> B[Community profiling]
+  B --> C[Multivariate stats: PCA, PERMANOVA, db-RDA]
+  B --> D[Network analysis]
+  B --> E[ML: Random Forest classification/regression]
+  C --> F[Environmental driver identification]
+  D --> F
+  E --> F
+```
+
+## Major results or outputs
+Identified environmental drivers of bacterioplankton dynamics and oxygen depletion; quantified aquaculture effects on microbial assemblages; built classification models discriminating impacted vs. reference conditions (ROC-AUC up to 0.93) and regression models explaining biological outcomes from environmental variables (R² up to 0.87). Results published across four peer-reviewed papers and one preprint.
+
+## Challenges and decisions
+Working in a naturally extreme, non-randomized system meant designing statistical frameworks (network + ML + multivariate stats together) that could separate natural stratification effects from aquaculture-driven change, rather than relying on any single method.
+
+## Publications
+- Da Silva, R.R.P., White, C.A., Bowman, J.P., Bodrossy, L., Bissett, A., Revill, A., Eriksen, R. and Ross, D.J., 2022. Network and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient. *Estuarine, Coastal and Shelf Science*, 108026. [Link](https://www.sciencedirect.com/science/article/pii/S0272771422002840)
+- Da Silva, R.R.P., White, C.A., Bowman, J.P. and Ross, D.J., 2022. Composition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture. *Marine Pollution Bulletin*. [https://doi.org/10.1016/j.marpolbul.2022.113957](https://doi.org/10.1016/j.marpolbul.2022.113957)
+- Da Silva, R.R.P., White, C.A., Bowman, J.P., Raes, E., Bisset, A., Chapman, C., Bodrossy, L. and Ross, D.J., 2021. Environmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment. *Aquatic Microbial Ecology*, 87, 185-203. [Link](https://www.int-res.com/abstracts/ame/v87/p185-203/)
+- Da Silva, R.R.P., White, C.A., Bowman, J.P. and Ross, D.J., 2022. Effects of finfish farms on pelagic protist communities in a semi-closed stratified embayment. *bioRxiv*. [https://doi.org/10.1101/2022.08.08.503163](https://doi.org/10.1101/2022.08.08.503163)
+- PhD thesis: [https://doi.org/10.25959/24165534](https://doi.org/10.25959/24165534)
+
+## Code and documentation
+Repository link pending (analysis scripts not yet publicly organized).
+
+## Collaborators
+PhD supervised at IMAS, University of Tasmania, with co-authors C.A. White, J.P. Bowman, D.J. Ross, and others named in the publications above.
+
+## Current status
+Completed; published.
+
+## Limitations or confidentiality note
+None — fully published doctoral research.

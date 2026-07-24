@@ -1,0 +1,21 @@
+---
+title: "Data & Statistics"
+description: "Data stories, statistical demonstrations, and visualization examples."
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  filter-ui: true
+  sort-ui: true
+  feed: true
+  fields: [image, title, description, date, categories, reading-time]
+page-layout: full
+title-block-banner: false
+---
+
+Posts here emphasize statistical judgment as much as visualization: the analytical question, data source, method, assumptions, and limitations are always stated alongside the figure.
+
+::: {.placeholder-note}
+**To add a post:** copy `data-stats/posts/_template/` folder, rename it, edit the front matter, and set `draft: false` when ready to publish.
+:::

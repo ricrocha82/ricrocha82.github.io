@@ -1,0 +1,54 @@
+---
+title: "[Project Title]"
+description: "[One-sentence problem statement]"
+date: "YYYY-MM-DD"          # date you want it sorted by (e.g. publication date or last-updated)
+image: "../images/projects/PLACEHOLDER.png"
+image-alt: "[Describe what the thumbnail image shows]"
+categories: [Bioinformatics Software]   # choose from: Bioinformatics Software, Microbiome, Viromics,
+                                          # Biomedical Research, Environmental Research, Machine Learning,
+                                          # Data Visualization, HPC and Workflows
+status: "Ongoing"            # Ongoing | Published | Completed | On hold
+---
+
+## Overview
+[2-3 sentence summary of the project.]
+
+## Scientific or practical problem
+[What question or gap does this address?]
+
+## My role
+[Be specific: Led / Developed / Implemented / Contributed to / Supported. Distinguish your work from collaborators'.]
+
+## Dataset or data type
+[Sequencing platform, sample sizes, data types — no confidential specifics.]
+
+## Methods and technologies
+[Tools, languages, pipeline steps.]
+
+## Workflow diagram
+```{mermaid}
+flowchart LR
+  A[Raw data] --> B[Processing step]
+  B --> C[Result]
+```
+
+## Major results or outputs
+[Findings, deliverables — only what is public/published.]
+
+## Challenges and decisions
+[Key methodological decisions and why.]
+
+## Publications
+[Link if published, otherwise "Manuscript in preparation" or omit.]
+
+## Code and documentation
+[Repository / docs links, or "Repository link pending."]
+
+## Collaborators
+[Names/roles if appropriate to disclose, or "Collaborative project with the [Lab/Group] at [Institution]."]
+
+## Current status
+[Ongoing / published / completed.]
+
+## Limitations or confidentiality note
+[State clearly if results are generalized due to unpublished status or collaborator ownership.]

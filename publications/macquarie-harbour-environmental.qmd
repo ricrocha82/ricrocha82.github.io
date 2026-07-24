@@ -1,0 +1,17 @@
+---
+title: "Environmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment"
+date: "2021-01-01"
+categories: [Environmental Research]
+pub-type: "journal-article"
+first-author: true
+pub-journal: "Aquatic Microbial Ecology"
+doi: ""
+---
+
+**Journal:** Aquatic Microbial Ecology · **Year:** 2021
+
+**My contribution:** Lead author (PhD research).
+
+**Citation:** [@dasilva2021environmental]
+
+[Link](https://www.int-res.com/abstracts/ame/v87/p185-203/)

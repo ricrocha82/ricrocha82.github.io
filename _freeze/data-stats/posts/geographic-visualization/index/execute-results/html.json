@@ -1,0 +1,12 @@
+{
+  "hash": "9aa6268dcb6305e5abd8d5cd41317eef",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Geographic Visualization for Environmental Data\"\ndescription: \"Placeholder — Geographic Visualization for Environmental Data.\"\ndate: \"2026-12-31\"\ncategories: [Visualization]\nimage: \"featured.png\"\ndraft: true\nreading-time: true\n---\n\n\n\n\n## The analytical question\n[To be written]\n\n## Data source\n[Public or simulated dataset only — to be written]\n\n## Data cleaning\n[To be written]\n\n## Statistical method\n[To be written]\n\n## Visualization\n\n\n## Interpretation\n[To be written]\n\n## Assumptions\n[To be written]\n\n## Limitations\n[To be written]\n\n## Reproducibility\n[To be written]\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

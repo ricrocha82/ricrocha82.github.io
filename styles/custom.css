@@ -1,0 +1,41 @@
+/* Respect reduced-motion preference site-wide */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visually-hidden but screen-reader accessible utility */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Print styles for the CV page */
+@media print {
+  .navbar, .page-footer, .btn, #TOC, .sidebar { display: none !important; }
+  body { font-size: 12pt; color: #000; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+}
+
+/* Featured project card image */
+.project-card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Role/impact labels inside project & CV entries */
+.role-label {
+  font-weight: 700;
+  color: var(--brand-teal-700, #0b6e6e);
+}

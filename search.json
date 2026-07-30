@@ -1,0 +1,1339 @@
+[
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Bioinformatics Tutorials",
+    "section": "",
+    "text": "Reproducible, code-first tutorials on bioinformatics workflows, pipelines, and HPC. All example data is simulated or public — no confidential project data is used in tutorials.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBuilding a Reproducible Nextflow Pipeline for Metagenomics\n\n\n\n\n\n\nNextflow\n\n\nMetagenomics\n\n\nHPC\n\n\n\nA minimal, worked example of structuring a metagenomics workflow in Nextflow so it is portable and reproducible.\n\n\n\n\n\nJul 24, 2026\n\n\n4 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/vaginal-microbiome-hiv.html",
+    "href": "publications/vaginal-microbiome-hiv.html",
+    "title": "The vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the Democratic Republic of Congo: a pilot study and global meta-analysis",
+    "section": "",
+    "text": "Journal: mSphere · Year: 2026\nMy contribution: Co-author. Designed and executed the statistical analysis plan (compositional analysis, regression, batch correction, differential abundance).\nCitation: (Ndlovu et al., 2026)\nDOI: 10.1128/msphere.00597-25\n\n\n\n\nReferences\n\nNdlovu, K. S., Pavan, R. R., Corry, J., Gregory, A. C., Mahamed, S., Zotova, N., Tabala, M., Babakazo, P., Funderburg, N. T., Yotebieng, M., & Klatt, N. R. (2026). The vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the democratic republic of congo: A pilot study and global meta-analysis. mSphere, e00597–25. https://doi.org/10.1128/msphere.00597-25"
+  },
+  {
+    "objectID": "publications/microcystin-toxicity-astyanax.html",
+    "href": "publications/microcystin-toxicity-astyanax.html",
+    "title": "Toxicity and genotoxicity in Astyanax bimaculatus (Characidae) induced by microcystins from a bloom of Microcystis spp",
+    "section": "",
+    "text": "Journal: Genetics and Molecular Biology · Year: 2010\nMy contribution: Lead author (MSc research).\nCitation: (Silva et al., 2010)\nDOI: 10.1590/S1415-47572010000400023\n\n\n\n\nReferences\n\nSilva, R. R. P. D., Pires Junior, O. R., & Grisolia, C. K. (2010). Toxicity and genotoxicity in astyanax bimaculatus (characidae) induced by microcystins from a bloom of microcystis spp. Genetics and Molecular Biology, 33, 750–755. https://doi.org/10.1590/S1415-47572010000400023"
+  },
+  {
+    "objectID": "publications/macquarie-harbour-environmental.html",
+    "href": "publications/macquarie-harbour-environmental.html",
+    "title": "Environmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment",
+    "section": "",
+    "text": "Journal: Aquatic Microbial Ecology · Year: 2021\nMy contribution: Lead author (PhD research).\nCitation: (Da Silva et al., 2021)\nLink\n\n\n\n\nReferences\n\nDa Silva, R. R. P., White, C. A., Bowman, J. P., Raes, E., Bisset, A., Chapman, C., Bodrossy, L., & Ross, D. J. (2021). Environmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment. Aquatic Microbial Ecology, 87, 185–203. https://www.int-res.com/abstracts/ame/v87/p185-203/"
+  },
+  {
+    "objectID": "publications/gene-length-transcript-capture.html",
+    "href": "publications/gene-length-transcript-capture.html",
+    "title": "Gene length is a pivotal feature to explain disparities in transcript capture between single transcriptome techniques",
+    "section": "",
+    "text": "Journal: Frontiers in Bioinformatics · Year: 2023\nMy contribution: Lead author. Performed computational analysis comparing single-cell and single-nucleus RNA-seq transcript capture.\nCitation: (Pavan et al., 2023)\nDOI: 10.3389/fbinf.2023.1144266\n\n\n\n\nReferences\n\nPavan, R. R., Diniz, F., El-Dahr, S., & Tortelote, G. G. (2023). Gene length is a pivotal feature to explain disparities in transcript capture between single transcriptome techniques. Frontiers in Bioinformatics, 3, 1144266. https://doi.org/10.3389/fbinf.2023.1144266"
+  },
+  {
+    "objectID": "publications/cressent-toolkit.html",
+    "href": "publications/cressent-toolkit.html",
+    "title": "CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation",
+    "section": "",
+    "text": "Journal: Microbial Genomics · Year: 2026\nMy contribution: Lead author. Designed, developed, tested, and documented the CRESSENT toolkit; led the manuscript.\nCitation: (Pavan et al., 2026)\nDOI: 10.1099/mgen.0.001632 · Code\n\n\n\n\nReferences\n\nPavan, R. R., Sullivan, M. B., & Tisza, M. (2026). CRESSENT: A bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics, 12, 001632. https://doi.org/10.1099/mgen.0.001632"
+  },
+  {
+    "objectID": "publications/bacterioplankton-aquaculture.html",
+    "href": "publications/bacterioplankton-aquaculture.html",
+    "title": "Composition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture",
+    "section": "",
+    "text": "Journal: Marine Pollution Bulletin · Year: 2022\nMy contribution: Lead author (PhD research).\nCitation: (Da Silva et al., 2022)\nDOI: 10.1016/j.marpolbul.2022.113957\n\n\n\n\nReferences\n\nDa Silva, R. R. P., White, C. A., Bowman, J. P., & Ross, D. J. (2022). Composition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture. Marine Pollution Bulletin. https://doi.org/10.1016/j.marpolbul.2022.113957"
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html",
+    "href": "projects/vaginal-microbiome.html",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "",
+    "text": "A pilot study and global meta-analysis of the vaginal microbiome in pregnant people living with HIV on antiretroviral therapy, examining community state types, host immune mediators, and associations with adverse reproductive outcomes."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#overview",
+    "href": "projects/vaginal-microbiome.html#overview",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "",
+    "text": "A pilot study and global meta-analysis of the vaginal microbiome in pregnant people living with HIV on antiretroviral therapy, examining community state types, host immune mediators, and associations with adverse reproductive outcomes."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#scientific-or-practical-problem",
+    "href": "projects/vaginal-microbiome.html#scientific-or-practical-problem",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nThe vaginal microbiome is linked to reproductive health outcomes, but data integration across studies of pregnant people living with HIV has been limited. This project combined a pilot cohort with a broader meta-analysis to look for consistent microbiome–immune associations."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#my-role",
+    "href": "projects/vaginal-microbiome.html#my-role",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "My role",
+    "text": "My role\nStatistical analysis. I designed and executed the statistical analysis plan for a human cohort (82 pregnant people living with HIV) together with a global meta-analysis (1,800+ samples), applying compositional data analysis, regression, non-parametric testing, batch correction, and differential abundance analysis."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#dataset-or-data-type",
+    "href": "projects/vaginal-microbiome.html#dataset-or-data-type",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\n16S rRNA amplicon sequencing data from a pilot cohort (Democratic Republic of Congo) integrated with publicly available vaginal microbiome datasets for meta-analysis, alongside host immune mediator measurements."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#methods-and-technologies",
+    "href": "projects/vaginal-microbiome.html#methods-and-technologies",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\n16S amplicon analysis and functional prediction\nCompositional data analysis\nBatch correction across integrated datasets\nRegression and non-parametric statistical testing\nDifferential abundance analysis\nIntegration of microbiome and host immune-mediator data"
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#workflow-diagram",
+    "href": "projects/vaginal-microbiome.html#workflow-diagram",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Pilot cohort 16S data] --&gt; C[Batch-corrected integration]\n  B[Public meta-analysis datasets] --&gt; C\n  C --&gt; D[Compositional / differential abundance analysis]\n  D --&gt; E[Microbiome-immune association testing]"
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#major-results-or-outputs",
+    "href": "projects/vaginal-microbiome.html#major-results-or-outputs",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nPublished pilot study and meta-analysis identifying associations between vaginal community state types, inflammatory immune mediators, and reproductive outcomes in this population."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#challenges-and-decisions",
+    "href": "projects/vaginal-microbiome.html#challenges-and-decisions",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nIntegrating multiple independently generated 16S datasets required batch-effect correction before any cross-cohort comparison could be trusted — a key methodological decision that shaped the whole analysis plan."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#publications",
+    "href": "projects/vaginal-microbiome.html#publications",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Publications",
+    "text": "Publications\nNdlovu, K.S., Pavan, R.R., Corry, J., Gregory, A.C., Mahamed, S., Zotova, N., Tabala, M., Babakazo, P., Funderburg, N.T., Yotebieng, M. and Klatt, N.R., 2026. The vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the Democratic Republic of Congo: a pilot study and global meta-analysis. mSphere, e00597-25. https://doi.org/10.1128/msphere.00597-25"
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#code-and-documentation",
+    "href": "projects/vaginal-microbiome.html#code-and-documentation",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nAnalysis code repository link pending."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#collaborators",
+    "href": "projects/vaginal-microbiome.html#collaborators",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Collaborators",
+    "text": "Collaborators\nCollaborative study led by K.S. Ndlovu and colleagues (Klatt Lab); statistical analysis contributed by R.R. Pavan. Participant-level information is not disclosed, consistent with the published study’s ethical approvals."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#current-status",
+    "href": "projects/vaginal-microbiome.html#current-status",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Current status",
+    "text": "Current status\nPublished (2026)."
+  },
+  {
+    "objectID": "projects/vaginal-microbiome.html#limitations-or-confidentiality-note",
+    "href": "projects/vaginal-microbiome.html#limitations-or-confidentiality-note",
+    "title": "Vaginal Microbiome in Pregnancy and HIV",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNo participant-identifying information is presented here; all details reflect what is reported in the published paper."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html",
+    "href": "projects/pig-burn-wound.html",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "",
+    "text": "A metagenomic bioinformatics project processing sequencing data from a pig burn-wound model to characterize the wound-associated microbial community and its dynamics over time."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#overview",
+    "href": "projects/pig-burn-wound.html#overview",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "",
+    "text": "A metagenomic bioinformatics project processing sequencing data from a pig burn-wound model to characterize the wound-associated microbial community and its dynamics over time."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#scientific-or-practical-problem",
+    "href": "projects/pig-burn-wound.html#scientific-or-practical-problem",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nUnderstanding how microbial communities colonize and change during burn-wound healing (or infection) can inform wound-care research. This requires a reproducible pipeline for turning raw shotgun metagenomic reads into genome bins and taxonomic/functional profiles."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#my-role",
+    "href": "projects/pig-burn-wound.html#my-role",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "My role",
+    "text": "My role\nBioinformatics analysis support, focused on the computational pipeline: raw-read processing, host-DNA depletion, assembly, genome binning, and taxonomic classification."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#dataset-or-data-type",
+    "href": "projects/pig-burn-wound.html#dataset-or-data-type",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nShotgun metagenomic sequencing from a pig (animal model) burn-wound study. (Specific sample sizes and collaborator-owned results are not disclosed here.)"
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#methods-and-technologies",
+    "href": "projects/pig-burn-wound.html#methods-and-technologies",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nRaw-read quality control and host depletion\nMetagenomic assembly\nGenome binning and bin refinement\nCheckM2 completeness/contamination evaluation\nGTDB-Tk taxonomic classification\nNextflow workflows executed via Slurm and Apptainer"
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#workflow-diagram",
+    "href": "projects/pig-burn-wound.html#workflow-diagram",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Raw reads] --&gt; B[Host depletion & QC]\n  B --&gt; C[Metagenomic assembly]\n  C --&gt; D[Genome binning]\n  D --&gt; E[Bin refinement + CheckM2]\n  E --&gt; F[GTDB-Tk taxonomy]\n  F --&gt; G[Downstream microbiome analysis]"
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#major-results-or-outputs",
+    "href": "projects/pig-burn-wound.html#major-results-or-outputs",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nA reusable, containerized Nextflow workflow for metagenomic assembly-to-taxonomy processing, applicable beyond this specific study."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#challenges-and-decisions",
+    "href": "projects/pig-burn-wound.html#challenges-and-decisions",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nHost-DNA depletion and bin refinement thresholds required careful tuning given the animal-model sample composition; workflow steps were containerized specifically to make the pipeline portable to other HPC environments."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#publications",
+    "href": "projects/pig-burn-wound.html#publications",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Publications",
+    "text": "Publications\nNot yet published."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#code-and-documentation",
+    "href": "projects/pig-burn-wound.html#code-and-documentation",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nInternal/collaborator project; not publicly released at this time."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#collaborators",
+    "href": "projects/pig-burn-wound.html#collaborators",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Collaborators",
+    "text": "Collaborators\nCollaborative project with a research group studying wound-healing models; specific collaborator identities and unpublished results are withheld."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#current-status",
+    "href": "projects/pig-burn-wound.html#current-status",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Current status",
+    "text": "Current status\nOngoing."
+  },
+  {
+    "objectID": "projects/pig-burn-wound.html#limitations-or-confidentiality-note",
+    "href": "projects/pig-burn-wound.html#limitations-or-confidentiality-note",
+    "title": "Pig Burn Wound Microbiome",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nThis description is intentionally generalized. No unpublished results, sample-level data, or collaborator-identifying details are shown, per data-sharing agreements."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html",
+    "href": "projects/macquarie-harbour.html",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "",
+    "text": "My PhD research at the University of Tasmania characterized the pelagic microbial community of Macquarie Harbour — a highly stratified, low-oxygen estuary — and its response to environmental gradients and salmon aquaculture."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#overview",
+    "href": "projects/macquarie-harbour.html#overview",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "",
+    "text": "My PhD research at the University of Tasmania characterized the pelagic microbial community of Macquarie Harbour — a highly stratified, low-oxygen estuary — and its response to environmental gradients and salmon aquaculture."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#scientific-or-practical-problem",
+    "href": "projects/macquarie-harbour.html#scientific-or-practical-problem",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nCoastal aquaculture can alter microbial communities, but disentangling aquaculture effects from strong natural gradients (oxygen, salinity stratification) in an already extreme estuarine system is analytically challenging."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#my-role",
+    "href": "projects/macquarie-harbour.html#my-role",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "My role",
+    "text": "My role\nLead researcher (PhD). I designed the sampling and analysis approach, generated and analyzed 16S/18S rRNA sequencing data, and led all statistical and machine learning analyses and resulting publications."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#dataset-or-data-type",
+    "href": "projects/macquarie-harbour.html#dataset-or-data-type",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\n16S and 18S rRNA amplicon sequencing across spatial and depth gradients in Macquarie Harbour, paired with environmental (oxygen, salinity, nutrient) measurements."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#methods-and-technologies",
+    "href": "projects/macquarie-harbour.html#methods-and-technologies",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\n16S/18S amplicon sequencing and community profiling\nNetwork analysis of microbial co-occurrence\nMachine learning (random forest classification and regression) for biomarker/indicator identification\nMultivariate statistics: PCA, PERMANOVA, distance-based redundancy analysis (db-RDA)\nSpatial and gradient-based ecological modeling"
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#workflow-diagram",
+    "href": "projects/macquarie-harbour.html#workflow-diagram",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[16S/18S sequencing] --&gt; B[Community profiling]\n  B --&gt; C[Multivariate stats: PCA, PERMANOVA, db-RDA]\n  B --&gt; D[Network analysis]\n  B --&gt; E[ML: Random Forest classification/regression]\n  C --&gt; F[Environmental driver identification]\n  D --&gt; F\n  E --&gt; F"
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#major-results-or-outputs",
+    "href": "projects/macquarie-harbour.html#major-results-or-outputs",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nIdentified environmental drivers of bacterioplankton dynamics and oxygen depletion; quantified aquaculture effects on microbial assemblages; built classification models discriminating impacted vs. reference conditions (ROC-AUC up to 0.93) and regression models explaining biological outcomes from environmental variables (R² up to 0.87). Results published across four peer-reviewed papers and one preprint."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#challenges-and-decisions",
+    "href": "projects/macquarie-harbour.html#challenges-and-decisions",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nWorking in a naturally extreme, non-randomized system meant designing statistical frameworks (network + ML + multivariate stats together) that could separate natural stratification effects from aquaculture-driven change, rather than relying on any single method."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#publications",
+    "href": "projects/macquarie-harbour.html#publications",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Publications",
+    "text": "Publications\n\nDa Silva, R.R.P., White, C.A., Bowman, J.P., Bodrossy, L., Bissett, A., Revill, A., Eriksen, R. and Ross, D.J., 2022. Network and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient. Estuarine, Coastal and Shelf Science, 108026. Link\nDa Silva, R.R.P., White, C.A., Bowman, J.P. and Ross, D.J., 2022. Composition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture. Marine Pollution Bulletin. https://doi.org/10.1016/j.marpolbul.2022.113957\nDa Silva, R.R.P., White, C.A., Bowman, J.P., Raes, E., Bisset, A., Chapman, C., Bodrossy, L. and Ross, D.J., 2021. Environmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment. Aquatic Microbial Ecology, 87, 185-203. Link\nDa Silva, R.R.P., White, C.A., Bowman, J.P. and Ross, D.J., 2022. Effects of finfish farms on pelagic protist communities in a semi-closed stratified embayment. bioRxiv. https://doi.org/10.1101/2022.08.08.503163\nPhD thesis: https://doi.org/10.25959/24165534"
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#code-and-documentation",
+    "href": "projects/macquarie-harbour.html#code-and-documentation",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nRepository link pending (analysis scripts not yet publicly organized)."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#collaborators",
+    "href": "projects/macquarie-harbour.html#collaborators",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Collaborators",
+    "text": "Collaborators\nPhD supervised at IMAS, University of Tasmania, with co-authors C.A. White, J.P. Bowman, D.J. Ross, and others named in the publications above."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#current-status",
+    "href": "projects/macquarie-harbour.html#current-status",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Current status",
+    "text": "Current status\nCompleted; published."
+  },
+  {
+    "objectID": "projects/macquarie-harbour.html#limitations-or-confidentiality-note",
+    "href": "projects/macquarie-harbour.html#limitations-or-confidentiality-note",
+    "title": "Macquarie Harbour Microbial Ecology",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNone — fully published doctoral research."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html",
+    "href": "projects/cyberinfrastructure.html",
+    "title": "Cyberinfrastructure & Training",
+    "section": "",
+    "text": "Ongoing work integrating CyVerse user-facing applications with Tapis-backed HPC execution, and co-developing training materials that teach researchers and cyberinfrastructure professionals to run AI- and HPC-enabled viral ecology workflows."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#overview",
+    "href": "projects/cyberinfrastructure.html#overview",
+    "title": "Cyberinfrastructure & Training",
+    "section": "",
+    "text": "Ongoing work integrating CyVerse user-facing applications with Tapis-backed HPC execution, and co-developing training materials that teach researchers and cyberinfrastructure professionals to run AI- and HPC-enabled viral ecology workflows."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#scientific-or-practical-problem",
+    "href": "projects/cyberinfrastructure.html#scientific-or-practical-problem",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nPowerful HPC and cloud research-computing resources (CyVerse, ACCESS, Tapis) are underused by domain researchers because the tooling and documentation gap between “has an HPC allocation” and “can run their analysis reliably” is often large."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#my-role",
+    "href": "projects/cyberinfrastructure.html#my-role",
+    "title": "Cyberinfrastructure & Training",
+    "section": "My role",
+    "text": "My role\nCyberinfrastructure-facing bioinformatics developer. I integrate CyVerse applications with Tapis-backed execution, manage data transfer and input/output mapping, document app-update procedures and computational protocols (via Protocols.io), and co-develop training modules and example datasets for the iVirus Cyberinfrastructure Training Initiative."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#dataset-or-data-type",
+    "href": "projects/cyberinfrastructure.html#dataset-or-data-type",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nExample/training datasets for viral and eco-genomics workflows (not primary research data)."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#methods-and-technologies",
+    "href": "projects/cyberinfrastructure.html#methods-and-technologies",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nCyVerse discovery environment app development\nTapis-backed HPC job execution\nData transfer and I/O mapping and synchronization\nProtocol and procedure documentation (Protocols.io)\nTraining-module and example-dataset development"
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#workflow-diagram",
+    "href": "projects/cyberinfrastructure.html#workflow-diagram",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[CyVerse app] --&gt; B[Tapis job submission]\n  B --&gt; C[HPC execution]\n  C --&gt; D[Output synced back to CyVerse]\n  D --&gt; E[Documented protocol / training module]"
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#major-results-or-outputs",
+    "href": "projects/cyberinfrastructure.html#major-results-or-outputs",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nUpdated and documented viral/eco-genomics analysis applications on national cyberinfrastructure platforms; contributed training modules supporting NSF-funded pipelines and future grant development."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#challenges-and-decisions",
+    "href": "projects/cyberinfrastructure.html#challenges-and-decisions",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nPrioritizing documentation and reproducibility (so others can maintain and extend the apps) alongside the underlying analysis correctness — treating “usable by someone else” as a deliverable, not an afterthought."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#publications",
+    "href": "projects/cyberinfrastructure.html#publications",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Publications",
+    "text": "Publications\nNot applicable (infrastructure/training work); may inform future methods papers."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#code-and-documentation",
+    "href": "projects/cyberinfrastructure.html#code-and-documentation",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nDocumentation hosted on Protocols.io and CyVerse; specific links to be added as they are finalized."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#collaborators",
+    "href": "projects/cyberinfrastructure.html#collaborators",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Collaborators",
+    "text": "Collaborators\niVirus Cyberinfrastructure Training Initiative; OSU Microbiome Working Group; CyVerse/ACCESS/Tapis teams."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#current-status",
+    "href": "projects/cyberinfrastructure.html#current-status",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Current status",
+    "text": "Current status\nOngoing."
+  },
+  {
+    "objectID": "projects/cyberinfrastructure.html#limitations-or-confidentiality-note",
+    "href": "projects/cyberinfrastructure.html#limitations-or-confidentiality-note",
+    "title": "Cyberinfrastructure & Training",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNone — describes infrastructure and training contributions, not confidential research results."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html",
+    "href": "projects/bats-diel-virome.html",
+    "title": "BATS Diel Virome",
+    "section": "",
+    "text": "A sub-daily (diel) viral metagenomic time series at the Bermuda Atlantic Time Series (BATS) site, resolving depth- and time-stratified viral population dynamics, host predictions, and auxiliary metabolic gene profiles in an oligotrophic ocean gyre."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#overview",
+    "href": "projects/bats-diel-virome.html#overview",
+    "title": "BATS Diel Virome",
+    "section": "",
+    "text": "A sub-daily (diel) viral metagenomic time series at the Bermuda Atlantic Time Series (BATS) site, resolving depth- and time-stratified viral population dynamics, host predictions, and auxiliary metabolic gene profiles in an oligotrophic ocean gyre."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#scientific-or-practical-problem",
+    "href": "projects/bats-diel-virome.html#scientific-or-practical-problem",
+    "title": "BATS Diel Virome",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nViral population dynamics in the ocean are typically sampled at daily-to-monthly resolution, which can miss rapid, sub-daily (diel) rhythms driven by light, host physiology, and depth stratification. This project asked whether — and how — viral populations shift across a single day at different depths."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#my-role",
+    "href": "projects/bats-diel-virome.html#my-role",
+    "title": "BATS Diel Virome",
+    "section": "My role",
+    "text": "My role\nCo-lead, contributing to bioinformatic and statistical analysis: viral operational taxonomic unit (vOTU) profiling, host prediction, and time-series/ecological interpretation."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#dataset-or-data-type",
+    "href": "projects/bats-diel-virome.html#dataset-or-data-type",
+    "title": "BATS Diel Virome",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nHigh-frequency (sub-daily) viral metagenomic sampling across multiple depths at the BATS site."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#methods-and-technologies",
+    "href": "projects/bats-diel-virome.html#methods-and-technologies",
+    "title": "BATS Diel Virome",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nViral metagenomic assembly and vOTU clustering\nDepth- and time-stratified population analysis\nHost prediction\nAuxiliary metabolic gene (AMG) profiling\nTime-series and diel-rhythmicity statistical analysis"
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#workflow-diagram",
+    "href": "projects/bats-diel-virome.html#workflow-diagram",
+    "title": "BATS Diel Virome",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Sub-daily depth-stratified samples] --&gt; B[Viral metagenomic assembly]\n  B --&gt; C[vOTU clustering]\n  C --&gt; D[Host prediction]\n  C --&gt; E[AMG profiling]\n  D --&gt; F[Diel / depth pattern analysis]\n  E --&gt; F"
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#major-results-or-outputs",
+    "href": "projects/bats-diel-virome.html#major-results-or-outputs",
+    "title": "BATS Diel Virome",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nPublished findings that viral populations show diel- and depth-structured dynamics at BATS without major shifts at the whole-community level — published in PLOS Biology."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#challenges-and-decisions",
+    "href": "projects/bats-diel-virome.html#challenges-and-decisions",
+    "title": "BATS Diel Virome",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nDistinguishing genuine diel/depth signal from sampling noise in a high-frequency time series required careful statistical framing (e.g., separating population-level from community-level shifts)."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#publications",
+    "href": "projects/bats-diel-virome.html#publications",
+    "title": "BATS Diel Virome",
+    "section": "Publications",
+    "text": "Publications\nCarrillo, A., Hageman, E., Chittick, L., Mackey, A.I., Ndlovu, K.S., Tian, F., Gilbert, N.E., Muratore, D., Vik, D., LeCleir, G.R., Sun, C. et al. (co-authored, incl. R.R. Pavan), 2026. Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics without community-level shifts. PLOS Biology, 24(3), e3003474. https://doi.org/10.1371/journal.pbio.3003474"
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#code-and-documentation",
+    "href": "projects/bats-diel-virome.html#code-and-documentation",
+    "title": "BATS Diel Virome",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nRepository link pending."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#collaborators",
+    "href": "projects/bats-diel-virome.html#collaborators",
+    "title": "BATS Diel Virome",
+    "section": "Collaborators",
+    "text": "Collaborators\nMulti-institution collaboration led within the Sullivan Lab network; co-authored with A. Carrillo and colleagues."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#current-status",
+    "href": "projects/bats-diel-virome.html#current-status",
+    "title": "BATS Diel Virome",
+    "section": "Current status",
+    "text": "Current status\nPublished (2026); related follow-up analyses ongoing."
+  },
+  {
+    "objectID": "projects/bats-diel-virome.html#limitations-or-confidentiality-note",
+    "href": "projects/bats-diel-virome.html#limitations-or-confidentiality-note",
+    "title": "BATS Diel Virome",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNone — this is published work; details beyond the paper’s scope are omitted for brevity, not confidentiality."
+  },
+  {
+    "objectID": "data-stats/index.html",
+    "href": "data-stats/index.html",
+    "title": "Data & Statistics",
+    "section": "",
+    "text": "Posts here emphasize statistical judgment as much as visualization: the analytical question, data source, method, assumptions, and limitations are always stated alongside the figure.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nComparing Clustering Methods on the Same Dataset\n\n\n\n\n\n\nStatistics\n\n\nMachine Learning\n\n\n\nK-means, hierarchical clustering, and DBSCAN applied to the same simulated ecological dataset — and why they disagree.\n\n\n\n\n\nJul 24, 2026\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m glad to hear from people exploring research collaborations, bioinformatics or data-science projects, scientific software, biomedical/microbiome data analysis, employment opportunities, or workshop/talk invitations.\nEmail: ricrocha82 [at] gmail [dot] com\nCurrent institution: The Ohio State University, Columbus, OH, USA\nProfiles:\n\nGitHub\nLinkedIn\nGoogle Scholar\nORCID\n\nEmail me"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "My path into bioinformatics started in the water, not at a computer. During my PhD at the Institute for Marine and Antarctic Studies, University of Tasmania, I studied how environmental gradients and aquaculture shape microbial communities in Macquarie Harbour, a stratified, low-oxygen estuary. That work meant spending as much time thinking about sampling design, oxygen gradients, and multivariate ecology as about code — and it’s where I first used network analysis and machine learning to pull structure out of large, noisy environmental datasets.\nWanting to strengthen the statistical and analytical side of that work, I completed an MBA in Data Science and Analytics (University of São Paulo) alongside my PhD, focused on applying data analysis techniques to microbial environmental ecology.\nThat combination — ecological training plus applied statistics — carried directly into bioinformatics. As a Postdoctoral Researcher in Bioinformatics at The Ohio State University since 2023, my focus shifted from single environmental systems to methods that generalize: reproducible pipelines for viral and microbial genome recovery (CRESSENT, VirION3), statistical frameworks for microbiome and virome datasets across very different contexts (marine time series, clinical cohorts, animal models), and the cyberinfrastructure that lets those pipelines run reliably on shared HPC systems (CyVerse, ACCESS, Tapis).\nIncreasingly, that also means building tools that other researchers can install and trust — not just analyses I run once. CRESSENT, released on PyPI and Bioconda with tests and documentation, reflects that shift toward software engineering discipline applied to research code. And most recently, that has extended to evaluating where AI-assisted methods genuinely help microbiome and viromics research, versus where they don’t."
+  },
+  {
+    "objectID": "about/index.html#professional-biography",
+    "href": "about/index.html#professional-biography",
+    "title": "About",
+    "section": "",
+    "text": "My path into bioinformatics started in the water, not at a computer. During my PhD at the Institute for Marine and Antarctic Studies, University of Tasmania, I studied how environmental gradients and aquaculture shape microbial communities in Macquarie Harbour, a stratified, low-oxygen estuary. That work meant spending as much time thinking about sampling design, oxygen gradients, and multivariate ecology as about code — and it’s where I first used network analysis and machine learning to pull structure out of large, noisy environmental datasets.\nWanting to strengthen the statistical and analytical side of that work, I completed an MBA in Data Science and Analytics (University of São Paulo) alongside my PhD, focused on applying data analysis techniques to microbial environmental ecology.\nThat combination — ecological training plus applied statistics — carried directly into bioinformatics. As a Postdoctoral Researcher in Bioinformatics at The Ohio State University since 2023, my focus shifted from single environmental systems to methods that generalize: reproducible pipelines for viral and microbial genome recovery (CRESSENT, VirION3), statistical frameworks for microbiome and virome datasets across very different contexts (marine time series, clinical cohorts, animal models), and the cyberinfrastructure that lets those pipelines run reliably on shared HPC systems (CyVerse, ACCESS, Tapis).\nIncreasingly, that also means building tools that other researchers can install and trust — not just analyses I run once. CRESSENT, released on PyPI and Bioconda with tests and documentation, reflects that shift toward software engineering discipline applied to research code. And most recently, that has extended to evaluating where AI-assisted methods genuinely help microbiome and viromics research, versus where they don’t."
+  },
+  {
+    "objectID": "about/index.html#current-role",
+    "href": "about/index.html#current-role",
+    "title": "About",
+    "section": "Current role",
+    "text": "Current role\nResearcher fellow, Bioinformatics and data analysis, The Ohio State University — Columbus, OH, USA (May 2023 – present)"
+  },
+  {
+    "objectID": "about/index.html#research-interests",
+    "href": "about/index.html#research-interests",
+    "title": "About",
+    "section": "Research interests",
+    "text": "Research interests\n\nReproducible bioinformatics pipelines for microbiome and virome data (Nextflow, Snakemake)\nViral genome recovery from long-read, short-read, and hybrid sequencing\nStatistical modeling of high-dimensional ecological and biomedical data\nScientific software engineering: packaging, testing, and distributing research tools\nResearch cyberinfrastructure and HPC-enabled reproducibility\nApplied machine learning for classification, dimensionality reduction, and biomarker discovery\nPractical, evidence-based uses of AI in microbiome and viromics research"
+  },
+  {
+    "objectID": "about/index.html#technical-approach",
+    "href": "about/index.html#technical-approach",
+    "title": "About",
+    "section": "Technical approach",
+    "text": "Technical approach\nI try to treat analysis code the way I’d want to receive it from someone else: version-controlled, documented, tested where it matters, and runnable by someone who wasn’t in the room when I wrote it. In practice that means containerizing dependencies (Docker/Apptainer + Conda), defining workflows explicitly (Nextflow/Snakemake) rather than as a sequence of manual steps, and separating exploratory analysis (Jupyter/Quarto notebooks) from production pipeline code."
+  },
+  {
+    "objectID": "about/index.html#career-timeline",
+    "href": "about/index.html#career-timeline",
+    "title": "About",
+    "section": "Career timeline",
+    "text": "Career timeline\n\n\n\n\n\ntimeline\n    title Career Progression\n    2005 : BSc, Biological Sciences — University of Brasília\n    2009 : MSc, Animal Biology — University of Brasília\n    2016 – 2018 : Project Analyst — Brazilian Ministry of Science and Technology\n    2018 – 2022 : PhD, Biological Sciences — University of Tasmania (IMAS)\n    2020 – 2023 : MBA, Data Science & Analytics — University of São Paulo\n    2023 – present : Postdoctoral Researcher, Bioinformatics — The Ohio State University"
+  },
+  {
+    "objectID": "about/index.html#education",
+    "href": "about/index.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nPhD, Biological Sciences — Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, Australia (2018–2022) Thesis: The pelagic microbial community of Macquarie Harbour, Tasmania: ecology and response to aquaculture. DOI\nMBA, Data Science and Analytics — University of São Paulo, Brazil (2020–2023) Thesis: Unveiling microbial environmental ecology through data analysis techniques.\nMSc, Animal Biology — University of Brasília, Brazil (2009)\nBSc, Biological Sciences — University of Brasília, Brazil (2005)"
+  },
+  {
+    "objectID": "about/index.html#selected-professional-service",
+    "href": "about/index.html#selected-professional-service",
+    "title": "About",
+    "section": "Selected professional service",
+    "text": "Selected professional service\n\nLead contributor, OSU Microbiome Working Group (20+ researchers) — Microbiome Bioinformatics Helpline\nPeer reviewer for scientific journals\nPresenter — Midwest Microbiome Symposium (2025); CoMS-GSU Symposium (2026); OSU workshops; IMAS seminars\n\n\n\n\n\n\n\nInternational science & policy experience (2016–2018)\n\n\n\n\n\nBefore my PhD, I worked as a Project Analyst at the Brazilian Ministry of Science and Technology, supporting science policy, strategic program management, and international scientific cooperation — including technical review of funding proposals, coordination through multilateral initiatives, and cross-cutting work on environmental governance and climate change. This experience is secondary to my current bioinformatics focus but shaped how I communicate technical work to non-technical stakeholders."
+  },
+  {
+    "objectID": "about/index.html#languages",
+    "href": "about/index.html#languages",
+    "title": "About",
+    "section": "Languages",
+    "text": "Languages\nPortuguese (native) · English (fluent) · Spanish (beginner) · Italian (beginner)"
+  },
+  {
+    "objectID": "about/index.html#cv-résumé",
+    "href": "about/index.html#cv-résumé",
+    "title": "About",
+    "section": "CV & résumé",
+    "text": "CV & résumé\nDownload Academic CV (PDF) Download Industry Résumé (PDF)\nLast updated: 2026-07-24. See the CV page for a web-readable summary."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download Academic CV (PDF) Download Industry Résumé (PDF)\nLast updated: 2026-07-24"
+  },
+  {
+    "objectID": "cv/index.html#summary",
+    "href": "cv/index.html#summary",
+    "title": "CV",
+    "section": "Summary",
+    "text": "Summary\nBioinformatics scientist with PhD-level training in high-throughput biological data and applied statistics, specializing in statistical modeling, machine learning, pipeline development, and reproducible large-scale data analysis. Track record of peer-reviewed publications, open-source scientific software (CRESSENT), and collaboration across marine ecology, virology, and biomedical research contexts."
+  },
+  {
+    "objectID": "cv/index.html#experience",
+    "href": "cv/index.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\n\nPostdoctoral Researcher, Bioinformatics — The Ohio State University · May 2023 – present\n\nReproducible viral/microbiome bioinformatics pipelines (CRESSENT, VirION3), statistical analysis for microbiome and virome datasets, cyberinfrastructure integration (CyVerse/ACCESS/Tapis), mentoring.\n\nDoctoral Researcher — University of Tasmania (IMAS) · Nov 2018 – Apr 2022\n\nMarine microbial ecology, 16S/18S sequencing, network analysis and machine learning, environmental gradient analysis.\n\nProject Analyst — Brazilian Ministry of Science and Technology · Mar 2016 – Nov 2018\n\nScience policy, strategic program management, international scientific cooperation."
+  },
+  {
+    "objectID": "cv/index.html#education",
+    "href": "cv/index.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPhD, Biological Sciences — University of Tasmania (2018–2022)\nMBA, Data Science and Analytics — University of São Paulo (2020–2023)\nMSc, Animal Biology — University of Brasília (2009)\nBSc, Biological Sciences — University of Brasília (2005)"
+  },
+  {
+    "objectID": "cv/index.html#grants-funding",
+    "href": "cv/index.html#grants-funding",
+    "title": "CV",
+    "section": "Grants & funding",
+    "text": "Grants & funding\n\nCo-Principal Investigator Award, DOE Joint Genome Institute (JGI) Community Science Program\nPostdoctoral Award, W.K. Kellogg Foundation OK-PROS Program\nPhD Scholarship, Tasmania Graduate Research Scholarship (TGRS)"
+  },
+  {
+    "objectID": "cv/index.html#selected-publications",
+    "href": "cv/index.html#selected-publications",
+    "title": "CV",
+    "section": "Selected publications",
+    "text": "Selected publications\nSee the full Publications page for the complete, filterable list with DOIs."
+  },
+  {
+    "objectID": "cv/index.html#technical-skills",
+    "href": "cv/index.html#technical-skills",
+    "title": "CV",
+    "section": "Technical skills",
+    "text": "Technical skills\nLanguages & tools: Python, R, Bash, SQL, Git/GitHub Pipelines & orchestration: Nextflow, Snakemake HPC & infrastructure: Slurm, Docker, Apptainer/Singularity, Conda, CyVerse, ACCESS, Tapis Analysis environments: Jupyter, Quarto Sequencing data: Illumina, Oxford Nanopore, PacBio; 16S amplicon, shotgun metagenomics, viromics, bulk and single-cell/single-nucleus RNA-seq Statistics & ML: Regression, classification, clustering, dimensionality reduction, mixed-effects models, time-series analysis\nFor the full narrative version of my background, see About."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html",
+    "href": "data-stats/posts/clustering-comparisons/index.html",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "",
+    "text": "Given a set of samples described by several continuous environmental variables (e.g. temperature, oxygen, salinity), do they form distinct groups — and does the answer depend on which clustering method you use?"
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#the-analytical-question",
+    "href": "data-stats/posts/clustering-comparisons/index.html#the-analytical-question",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "",
+    "text": "Given a set of samples described by several continuous environmental variables (e.g. temperature, oxygen, salinity), do they form distinct groups — and does the answer depend on which clustering method you use?"
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#data-source",
+    "href": "data-stats/posts/clustering-comparisons/index.html#data-source",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Data source",
+    "text": "Data source\nThis post uses a simulated dataset of 150 samples with three underlying groups, generated with scikit-learn’s make_blobs, plus one method (DBSCAN) evaluated on a non-globular shape to show where k-means style methods fail. No real project or confidential data is used."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#data-cleaning",
+    "href": "data-stats/posts/clustering-comparisons/index.html#data-cleaning",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Data cleaning",
+    "text": "Data cleaning\nSimulated data is already clean; in practice this step would include checking for missing values, standardizing variable scales (important here — clustering is scale-sensitive), and screening for outliers."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#statistical-method",
+    "href": "data-stats/posts/clustering-comparisons/index.html#statistical-method",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Statistical method",
+    "text": "Statistical method\nThree methods are compared on the same standardized data: k-means (assumes roughly spherical, similarly-sized clusters), agglomerative hierarchical clustering (Ward linkage), and DBSCAN (density-based, no assumption of cluster shape)."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#code",
+    "href": "data-stats/posts/clustering-comparisons/index.html#code",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Code",
+    "text": "Code\n\nimport numpy as np\nfrom sklearn.datasets import make_blobs\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN\nimport matplotlib.pyplot as plt\n\nrng = np.random.default_rng(42)\nX, y_true = make_blobs(n_samples=150, centers=3, cluster_std=0.9, random_state=42)\nX = StandardScaler().fit_transform(X)\n\nkmeans = KMeans(n_clusters=3, n_init=10, random_state=42).fit_predict(X)\nhier = AgglomerativeClustering(n_clusters=3, linkage=\"ward\").fit_predict(X)\ndbscan = DBSCAN(eps=0.4, min_samples=5).fit_predict(X)\n\nfig, axes = plt.subplots(1, 3, figsize=(12, 4))\nfor ax, labels, name in zip(\n    axes, [kmeans, hier, dbscan], [\"K-means\", \"Hierarchical (Ward)\", \"DBSCAN\"]\n):\n    ax.scatter(X[:, 0], X[:, 1], c=labels, cmap=\"viridis\", s=25)\n    ax.set_title(name)\n    ax.set_xticks([]); ax.set_yticks([])\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#visualization",
+    "href": "data-stats/posts/clustering-comparisons/index.html#visualization",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Visualization",
+    "text": "Visualization\nThe figure above shows the same simulated samples colored by cluster assignment under each method."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#interpretation",
+    "href": "data-stats/posts/clustering-comparisons/index.html#interpretation",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Interpretation",
+    "text": "Interpretation\nOn this well-separated, roughly spherical simulated dataset, all three methods agree closely with the true grouping. That agreement is the exception, not the rule: as soon as clusters vary in density, size, or shape, k-means and Ward-linkage hierarchical clustering (which both implicitly assume compact, similarly-sized groups) start to disagree with density-based methods like DBSCAN — and neither is “more correct” without external validation."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#assumptions",
+    "href": "data-stats/posts/clustering-comparisons/index.html#assumptions",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nK-means and Ward-linkage clustering assume clusters are roughly convex/spherical and similar in size.\nDBSCAN assumes clusters are contiguous regions of similar density and requires tuning eps/min_samples, which is data-scale-dependent.\nAll three assume standardized (comparable-scale) input features; skipping standardization here would let higher-variance variables dominate the distance calculations."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#limitations",
+    "href": "data-stats/posts/clustering-comparisons/index.html#limitations",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Limitations",
+    "text": "Limitations\nCluster number was fixed at k=3 for k-means/hierarchical for illustration; in practice this should be chosen via a validation criterion (e.g. silhouette score, gap statistic) rather than assumed. Real ecological or microbiome data rarely produces clusters this well-separated — treat this as a demonstration of method behavior, not a recommendation to trust any single method’s output at face value."
+  },
+  {
+    "objectID": "data-stats/posts/clustering-comparisons/index.html#reproducibility",
+    "href": "data-stats/posts/clustering-comparisons/index.html#reproducibility",
+    "title": "Comparing Clustering Methods on the Same Dataset",
+    "section": "Reproducibility",
+    "text": "Reproducibility\nscikit-learn, numpy, matplotlib — see environment.yml in the tutorial repository (placeholder — link to your actual environment file when publishing). Random seed fixed (random_state=42) for exact reproducibility of this simulated example."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome !",
+    "section": "",
+    "text": "Data Scientist and Bioinformatician  |  Reproducible Data analysis\n\nI develop reproducible pipelines and statistical/machine learning methods for complex data\nView Projects Download CV\nGitHub  ·  LinkedIn  ·  Google Scholar  ·  ORCID  ·  Email"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Welcome !",
+    "section": "What I do",
+    "text": "What I do\n\n\nMicrobiome & Viromics\nI design and run analyses that turn raw sequencing reads — 16S amplicon, shotgun metagenomic, and viral metagenomic data — into reliable, interpretable pictures of microbial and viral community structure, dynamics, and host interactions.\n\n\nBioinformatics Software & Pipelines\nI build and maintain open-source tools (e.g. CRESSENT) and workflow pipelines that make specialized analyses reusable, tested, documented, and installable by other researchers — not one-off scripts.\n\n\nStatistical Analysis & Machine Learning\nI apply multivariate statistics, regression, classification, dimensionality reduction, and clustering to high-dimensional biological and environmental data, with attention to study design and validation, not just model fitting.\n\n\nReproducible Pipelines & HPC\nI implement workflows in Nextflow and Snakemake, containerized with Docker/Apptainer and run on Slurm-managed HPC and research cyberinfrastructure (CyVerse, ACCESS, Tapis), so analyses can be rerun and verified by others."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Welcome !",
+    "section": "Featured projects",
+    "text": "Featured projects\n\n\nCRESSENT\nProblem: ssDNA viruses (CRESS viruses) lack consistent, reproducible annotation tools. Role: Lead developer. Methods: Python/R, motif & recombination analysis, CLI packaging. Impact: Published open-source toolkit distributed via PyPI/Bioconda (Microbial Genomics).\nPython R PyPI Bioconda CLI\nProject details · Repository · Publication\n\n\nVirION3\nProblem: Short-read-only sequencing struggles to recover complete, accurate viral genomes. Role: Developer, pipeline design. Methods: Long-read (Nanopore/PacBio) + Illumina hybrid assembly, benchmarking. Impact: Extends the VirION/VirION2 line of methods for viral genome recovery.\nNanopore PacBio Illumina Nextflow\nProject details · Repository: link pending\n\n\nBATS Diel Virome\nProblem: Viral population dynamics at sub-daily timescales are rarely resolved in marine systems. Role: Co-lead, statistical/bioinformatic analysis. Methods: Time-series viral metagenomics, host prediction, depth-stratified sampling. Impact: Published in PLOS Biology.\nMetagenomics Time-series Host prediction\nProject details · Publication\n\n\nPig Burn Wound Microbiome\nProblem: Understanding microbial community succession in a wound-healing model. Role: Bioinformatics analysis (assembly, binning, taxonomy). Methods: Nextflow, metagenomic assembly, genome binning, CheckM2, GTDB-Tk. Impact: Ongoing — generalized methods description (no unpublished results shown).\nNextflow Slurm Apptainer Metagenomics\nProject details\n\n\nSpinal Cord Injury Microbiome & Virome\nProblem: How microbiome, virome, and phage–host dynamics shift after spinal cord injury. Role: Bioinformatics/statistical analysis. Methods: Longitudinal microbiome/virome profiling, mobile-element detection. Impact: Ongoing — generalized methods description.\nLongitudinal Microbiome Virome\nProject details\n\n\nMacquarie Harbour Microbial Ecology\nProblem: How environmental gradients and aquaculture shape microbial communities in a stratified estuary. Role: PhD research — lead. Methods: 16S/18S sequencing, network analysis, machine learning, db-RDA/PERMANOVA. Impact: Multiple peer-reviewed publications (2021–2022).\nR Machine Learning Ecological Statistics\nProject details\n\n\nSee all projects →"
+  },
+  {
+    "objectID": "index.html#selected-outputs",
+    "href": "index.html#selected-outputs",
+    "title": "Welcome !",
+    "section": "Selected outputs",
+    "text": "Selected outputs\n\nPublication — Pavan, Sullivan & Tisza (2026). CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics. DOI\nPublication — Carrillo et al. (2026). Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics. PLOS Biology. DOI\nSoftware — CRESSENT: open-source ssDNA virus annotation toolkit (PyPI, Bioconda).\nTalk — CRESSENT: A Toolkit to Enhance ssDNA Virus Annotation. Midwest Microbiome Symposium, Columbus, OH (2025).\n\nSee all publications → · See all software →"
+  },
+  {
+    "objectID": "index.html#latest-from-the-blog",
+    "href": "index.html#latest-from-the-blog",
+    "title": "Welcome !",
+    "section": "Latest from the blog",
+    "text": "Latest from the blog\n\n\n\n\n\n\n\n\n\n\nBuilding a Reproducible Nextflow Pipeline for Metagenomics\n\n\n\nNextflow\n\n\nMetagenomics\n\n\nHPC\n\n\n\nA minimal, worked example of structuring a metagenomics workflow in Nextflow so it is portable and reproducible.\n\n\n\nJul 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComparing Clustering Methods on the Same Dataset\n\n\n\nStatistics\n\n\nMachine Learning\n\n\n\nK-means, hierarchical clustering, and DBSCAN applied to the same simulated ecological dataset — and why they disagree.\n\n\n\nJul 24, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n\nAll tutorials → · All data & statistics posts →"
+  },
+  {
+    "objectID": "index.html#lets-talk",
+    "href": "index.html#lets-talk",
+    "title": "Welcome !",
+    "section": "Let’s talk",
+    "text": "Let’s talk\nI’m glad to hear from people exploring research collaborations, bioinformatics or data-science projects, scientific software, biomedical/microbiome data analysis, employment opportunities, or workshop/talk invitations.\nGet in touch"
+  },
+  {
+    "objectID": "projects/cressent.html",
+    "href": "projects/cressent.html",
+    "title": "CRESSENT",
+    "section": "",
+    "text": "CRESSENT is an open-source, modular bioinformatics toolkit for the discovery, annotation, and ecological analysis of circular Rep-encoding single-stranded (CRESS) DNA viruses from metagenomic data. It combines sequence annotation, motif detection, recombination analysis, and phylogenetics in one reproducible, installable package."
+  },
+  {
+    "objectID": "projects/cressent.html#overview",
+    "href": "projects/cressent.html#overview",
+    "title": "CRESSENT",
+    "section": "",
+    "text": "CRESSENT is an open-source, modular bioinformatics toolkit for the discovery, annotation, and ecological analysis of circular Rep-encoding single-stranded (CRESS) DNA viruses from metagenomic data. It combines sequence annotation, motif detection, recombination analysis, and phylogenetics in one reproducible, installable package."
+  },
+  {
+    "objectID": "projects/cressent.html#scientific-or-practical-problem",
+    "href": "projects/cressent.html#scientific-or-practical-problem",
+    "title": "CRESSENT",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nCRESS DNA viruses (ssDNA viruses) are abundant and ecologically important across environments, but consistent, reproducible annotation of their genomes — origin-of-replication motifs, stem-loops, iterons, recombination signals — has lacked a dedicated, standardized toolkit. Researchers were largely relying on ad hoc scripts."
+  },
+  {
+    "objectID": "projects/cressent.html#my-role",
+    "href": "projects/cressent.html#my-role",
+    "title": "CRESSENT",
+    "section": "My role",
+    "text": "My role\nLead developer. I designed and implemented CRESSENT end to end: core Python and R modules, the command-line interface, the analysis modules described below, the test suite, documentation, packaging, and distribution. I also led the associated manuscript."
+  },
+  {
+    "objectID": "projects/cressent.html#dataset-or-data-type",
+    "href": "projects/cressent.html#dataset-or-data-type",
+    "title": "CRESSENT",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nMetagenome-assembled CRESS DNA virus genomes and reference sequences (public/community datasets used for benchmarking)."
+  },
+  {
+    "objectID": "projects/cressent.html#methods-and-technologies",
+    "href": "projects/cressent.html#methods-and-technologies",
+    "title": "CRESSENT",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nPython and R implementation, packaged as a command-line tool\nMotif analysis (origin-of-replication motifs)\nRecombination analysis\nStem-loop detection\nIteron analysis\nSequence logo generation\nAutomated test suite and continuous integration\nPackaging and distribution via PyPI and Bioconda\nBenchmarking against existing methods"
+  },
+  {
+    "objectID": "projects/cressent.html#workflow-diagram",
+    "href": "projects/cressent.html#workflow-diagram",
+    "title": "CRESSENT",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[CRESS virus genomes] --&gt; B[Motif & structural analysis]\n  B --&gt; C[Recombination detection]\n  C --&gt; D[Annotated genome + sequence logos]\n  D --&gt; E[Ecological / comparative analysis]"
+  },
+  {
+    "objectID": "projects/cressent.html#major-results-or-outputs",
+    "href": "projects/cressent.html#major-results-or-outputs",
+    "title": "CRESSENT",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nAn installable, tested, documented toolkit released publicly on PyPI and Bioconda, described in a peer-reviewed methods paper: Pavan, R.R., Sullivan, M.B. and Tisza, M. (2026). CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics, 12:001632."
+  },
+  {
+    "objectID": "projects/cressent.html#challenges-and-decisions",
+    "href": "projects/cressent.html#challenges-and-decisions",
+    "title": "CRESSENT",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nBalancing biological accuracy (motif/structural detection in short, variable ssDNA genomes) against usability for non-specialist users — this shaped the decision to provide both a scriptable API and a simple CLI, and to invest early in automated testing so annotation logic changes couldn’t silently break results."
+  },
+  {
+    "objectID": "projects/cressent.html#publications",
+    "href": "projects/cressent.html#publications",
+    "title": "CRESSENT",
+    "section": "Publications",
+    "text": "Publications\nPavan, R.R., Sullivan, M.B. and Tisza, M., 2026. CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics, 12:001632. https://doi.org/10.1099/mgen.0.001632"
+  },
+  {
+    "objectID": "projects/cressent.html#code-and-documentation",
+    "href": "projects/cressent.html#code-and-documentation",
+    "title": "CRESSENT",
+    "section": "Code and documentation",
+    "text": "Code and documentation\n\nRepository: github.com/ricrocha82/cressent\nPackage: PyPI and Bioconda (add direct package links when confirmed)"
+  },
+  {
+    "objectID": "projects/cressent.html#collaborators",
+    "href": "projects/cressent.html#collaborators",
+    "title": "CRESSENT",
+    "section": "Collaborators",
+    "text": "Collaborators\nDeveloped in collaboration with the Sullivan Lab (The Ohio State University) and colleagues; manuscript co-authored with M.B. Sullivan and M. Tisza."
+  },
+  {
+    "objectID": "projects/cressent.html#current-status",
+    "href": "projects/cressent.html#current-status",
+    "title": "CRESSENT",
+    "section": "Current status",
+    "text": "Current status\nPublished and actively maintained."
+  },
+  {
+    "objectID": "projects/cressent.html#limitations-or-confidentiality-note",
+    "href": "projects/cressent.html#limitations-or-confidentiality-note",
+    "title": "CRESSENT",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNone — this is fully public, published work."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Each project page describes the scientific problem, my specific role, methods, and current status. Work I led is distinguished from collaborative or ongoing (unpublished) work; confidential or collaborator-owned results are generalized or omitted.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBATS Diel Virome\n\n\n\nViromics\n\n\nEnvironmental Research\n\n\nMachine Learning\n\n\n\nA sub-daily marine viral metagenomic time series at the Bermuda Atlantic Time Series site.\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVaginal Microbiome in Pregnancy and HIV\n\n\n\nMicrobiome\n\n\nBiomedical Research\n\n\n\n16S-based meta-analysis of the vaginal microbiome in pregnant people living with HIV.\n\n\n\nFeb 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCRESSENT\n\n\n\nBioinformatics Software\n\n\nViromics\n\n\nEnvironmental Research\n\n\n\nA modular bioinformatics toolkit for annotation and analysis of CRESS DNA viruses.\n\n\n\nJan 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyberinfrastructure & Training\n\n\n\nHPC and Workflows\n\n\nBioinformatics Software\n\n\n\nModernizing and documenting bioinformatics applications on CyVerse, ACCESS, and Tapis-backed HPC.\n\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirION3\n\n\n\nBioinformatics Software\n\n\nViromics\n\n\nHPC and Workflows\n\n\n\nA hybrid long- and short-read workflow for viromics using Nanopore, PacBio, and Illumina data.\n\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPig Burn Wound Microbiome\n\n\n\nMicrobiome\n\n\nBiomedical Research\n\n\nHPC and Workflows\n\n\n\nMetagenomic bioinformatics workflow for a pig burn-wound infection model.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpinal Cord Injury Microbiome & Virome\n\n\n\nMicrobiome\n\n\nViromics\n\n\nBiomedical Research\n\n\n\nLongitudinal microbiome, virome, and phage-host dynamics following spinal cord injury.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics and Data Analysis — MBA\n\n\n\nMachine Learning\n\n\nData Visualization\n\n\n\nApplied statistics and machine learning coursework/thesis applying data-driven methods to environmental ecology questions.\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMacquarie Harbour Microbial Ecology\n\n\n\nEnvironmental Research\n\n\nMachine Learning\n\n\nData Visualization\n\n\n\nPhD research on marine microbial ecology along environmental gradients in a stratified Tasmanian estuary.\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/mba-stats.html",
+    "href": "projects/mba-stats.html",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "",
+    "text": "An MBA in Data Science and Analytics (University of São Paulo), completed alongside my PhD, applying statistical and machine learning methods to microbial environmental ecology questions."
+  },
+  {
+    "objectID": "projects/mba-stats.html#overview",
+    "href": "projects/mba-stats.html#overview",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "",
+    "text": "An MBA in Data Science and Analytics (University of São Paulo), completed alongside my PhD, applying statistical and machine learning methods to microbial environmental ecology questions."
+  },
+  {
+    "objectID": "projects/mba-stats.html#scientific-or-practical-problem",
+    "href": "projects/mba-stats.html#scientific-or-practical-problem",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nEcological datasets are often high-dimensional and noisy; extracting valid, generalizable patterns requires rigorous statistical and machine learning practice — not just running models, but validating them appropriately."
+  },
+  {
+    "objectID": "projects/mba-stats.html#my-role",
+    "href": "projects/mba-stats.html#my-role",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "My role",
+    "text": "My role\nStudent researcher — self-directed thesis and coursework."
+  },
+  {
+    "objectID": "projects/mba-stats.html#dataset-or-data-type",
+    "href": "projects/mba-stats.html#dataset-or-data-type",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nEnvironmental/microbial ecology datasets from my PhD research, reanalyzed with a broader statistical/ML toolkit."
+  },
+  {
+    "objectID": "projects/mba-stats.html#methods-and-technologies",
+    "href": "projects/mba-stats.html#methods-and-technologies",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nExploratory data analysis and data visualization\nMultivariate statistical analysis\nRegression and predictive modeling\nMachine learning for classification and feature selection\nPrincipal component analysis and dimensionality reduction\nClustering and pattern recognition\nModel validation and performance evaluation\nR, Python, and reproducible analytical workflows"
+  },
+  {
+    "objectID": "projects/mba-stats.html#workflow-diagram",
+    "href": "projects/mba-stats.html#workflow-diagram",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Raw dataset] --&gt; B[EDA & visualization]\n  B --&gt; C[Feature selection / dimensionality reduction]\n  C --&gt; D[Model training: regression / classification / clustering]\n  D --&gt; E[Validation & performance evaluation]"
+  },
+  {
+    "objectID": "projects/mba-stats.html#major-results-or-outputs",
+    "href": "projects/mba-stats.html#major-results-or-outputs",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nThesis: Unveiling microbial environmental ecology through data analysis techniques."
+  },
+  {
+    "objectID": "projects/mba-stats.html#challenges-and-decisions",
+    "href": "projects/mba-stats.html#challenges-and-decisions",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nApplying formal model-validation practice (cross-validation, held-out testing) to ecological data with limited sample sizes — a discipline that has carried into my subsequent bioinformatics work."
+  },
+  {
+    "objectID": "projects/mba-stats.html#publications",
+    "href": "projects/mba-stats.html#publications",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Publications",
+    "text": "Publications\nMBA thesis (not separately peer-reviewed)."
+  },
+  {
+    "objectID": "projects/mba-stats.html#code-and-documentation",
+    "href": "projects/mba-stats.html#code-and-documentation",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nNot publicly released."
+  },
+  {
+    "objectID": "projects/mba-stats.html#collaborators",
+    "href": "projects/mba-stats.html#collaborators",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Collaborators",
+    "text": "Collaborators\nIndependent coursework/thesis; supervised at University of São Paulo, Luiz de Queiroz College of Agriculture (ESALQ/USP)."
+  },
+  {
+    "objectID": "projects/mba-stats.html#current-status",
+    "href": "projects/mba-stats.html#current-status",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Current status",
+    "text": "Current status\nCompleted (2023)."
+  },
+  {
+    "objectID": "projects/mba-stats.html#limitations-or-confidentiality-note",
+    "href": "projects/mba-stats.html#limitations-or-confidentiality-note",
+    "title": "Statistics and Data Analysis — MBA",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nNone."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html",
+    "href": "projects/sci-microbiome.html",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "",
+    "text": "A longitudinal study examining microbiome, virome, phage–host, and mobile-genetic-element dynamics following spinal cord injury (SCI), an area where gut microbial disruption is thought to influence recovery and health outcomes."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#overview",
+    "href": "projects/sci-microbiome.html#overview",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "",
+    "text": "A longitudinal study examining microbiome, virome, phage–host, and mobile-genetic-element dynamics following spinal cord injury (SCI), an area where gut microbial disruption is thought to influence recovery and health outcomes."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#scientific-or-practical-problem",
+    "href": "projects/sci-microbiome.html#scientific-or-practical-problem",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nSpinal cord injury is associated with disruption of the gut microbiome, but how virome and phage–host dynamics change over time, and how mobile genetic elements move through the community post-injury, is not well characterized."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#my-role",
+    "href": "projects/sci-microbiome.html#my-role",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "My role",
+    "text": "My role\nBioinformatics/statistical analysis support for longitudinal microbiome and virome profiling."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#dataset-or-data-type",
+    "href": "projects/sci-microbiome.html#dataset-or-data-type",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nLongitudinal microbiome/virome sequencing samples from an SCI cohort or model system. (Specific cohort details withheld pending publication.)"
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#methods-and-technologies",
+    "href": "projects/sci-microbiome.html#methods-and-technologies",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nLongitudinal microbiome and virome profiling\nPhage–host linkage prediction\nMobile genetic element detection\nTime-series statistical analysis"
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#workflow-diagram",
+    "href": "projects/sci-microbiome.html#workflow-diagram",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Longitudinal samples] --&gt; B[Microbiome + virome profiling]\n  B --&gt; C[Phage-host linkage]\n  B --&gt; D[Mobile element detection]\n  C --&gt; E[Temporal dynamics analysis]\n  D --&gt; E"
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#major-results-or-outputs",
+    "href": "projects/sci-microbiome.html#major-results-or-outputs",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nNot yet public — analysis is ongoing."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#challenges-and-decisions",
+    "href": "projects/sci-microbiome.html#challenges-and-decisions",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nLongitudinal study designs require careful handling of repeated-measures structure (e.g., mixed-effects models) rather than treating timepoints as independent samples."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#publications",
+    "href": "projects/sci-microbiome.html#publications",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Publications",
+    "text": "Publications\nNot yet published."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#code-and-documentation",
+    "href": "projects/sci-microbiome.html#code-and-documentation",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nNot yet publicly released."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#collaborators",
+    "href": "projects/sci-microbiome.html#collaborators",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Collaborators",
+    "text": "Collaborators\nCollaborative biomedical research project; specific collaborator identities withheld pending publication."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#current-status",
+    "href": "projects/sci-microbiome.html#current-status",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Current status",
+    "text": "Current status\nOngoing."
+  },
+  {
+    "objectID": "projects/sci-microbiome.html#limitations-or-confidentiality-note",
+    "href": "projects/sci-microbiome.html#limitations-or-confidentiality-note",
+    "title": "Spinal Cord Injury Microbiome & Virome",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nThis description is intentionally generalized. No unpublished results or identifying participant/collaborator information are shown."
+  },
+  {
+    "objectID": "projects/virion3.html",
+    "href": "projects/virion3.html",
+    "title": "VirION3",
+    "section": "",
+    "text": "VirION3 is an integrated wet-lab-and-informatics pipeline combining long-read (Oxford Nanopore, PacBio) and short-read (Illumina) sequencing to improve the recovery, assembly, and ecological interpretation of viral genomes from environmental samples. It extends the earlier VirION and VirION2 methods."
+  },
+  {
+    "objectID": "projects/virion3.html#overview",
+    "href": "projects/virion3.html#overview",
+    "title": "VirION3",
+    "section": "",
+    "text": "VirION3 is an integrated wet-lab-and-informatics pipeline combining long-read (Oxford Nanopore, PacBio) and short-read (Illumina) sequencing to improve the recovery, assembly, and ecological interpretation of viral genomes from environmental samples. It extends the earlier VirION and VirION2 methods."
+  },
+  {
+    "objectID": "projects/virion3.html#scientific-or-practical-problem",
+    "href": "projects/virion3.html#scientific-or-practical-problem",
+    "title": "VirION3",
+    "section": "Scientific or practical problem",
+    "text": "Scientific or practical problem\nShort-read-only viral metagenomics often fails to fully resolve genome structure, repeats, and microdiversity in viral populations. Long-read and hybrid approaches can recover more complete genomes, but need systematic benchmarking against established short-read methods before being adopted as standard practice."
+  },
+  {
+    "objectID": "projects/virion3.html#my-role",
+    "href": "projects/virion3.html#my-role",
+    "title": "VirION3",
+    "section": "My role",
+    "text": "My role\nDeveloper, contributing to pipeline design, implementation, and benchmarking analysis comparing short-read and long-read/hybrid workflows."
+  },
+  {
+    "objectID": "projects/virion3.html#dataset-or-data-type",
+    "href": "projects/virion3.html#dataset-or-data-type",
+    "title": "VirION3",
+    "section": "Dataset or data type",
+    "text": "Dataset or data type\nEnvironmental viral metagenomes sequenced with Illumina, Oxford Nanopore, and PacBio platforms."
+  },
+  {
+    "objectID": "projects/virion3.html#methods-and-technologies",
+    "href": "projects/virion3.html#methods-and-technologies",
+    "title": "VirION3",
+    "section": "Methods and technologies",
+    "text": "Methods and technologies\n\nLong-read assembly and hybrid (long+short read) assembly\nPipeline benchmarking (genome recovery, accuracy, contiguity)\nViral population analysis and microdiversity assessment\nReproducible workflow implementation (Nextflow)"
+  },
+  {
+    "objectID": "projects/virion3.html#workflow-diagram",
+    "href": "projects/virion3.html#workflow-diagram",
+    "title": "VirION3",
+    "section": "Workflow diagram",
+    "text": "Workflow diagram\n\n\n\n\n\nflowchart LR\n  A[Illumina reads] --&gt; D[Hybrid assembly]\n  B[Nanopore reads] --&gt; D\n  C[PacBio reads] --&gt; D\n  D --&gt; E[Viral genome recovery]\n  E --&gt; F[Population / microdiversity analysis]"
+  },
+  {
+    "objectID": "projects/virion3.html#major-results-or-outputs",
+    "href": "projects/virion3.html#major-results-or-outputs",
+    "title": "VirION3",
+    "section": "Major results or outputs",
+    "text": "Major results or outputs\nBenchmarking comparisons quantifying differences in genome recovery, assembly accuracy, and bias between short-read-only and hybrid long+short-read approaches. (Full results pending publication.)"
+  },
+  {
+    "objectID": "projects/virion3.html#challenges-and-decisions",
+    "href": "projects/virion3.html#challenges-and-decisions",
+    "title": "VirION3",
+    "section": "Challenges and decisions",
+    "text": "Challenges and decisions\nBalancing the higher per-base error rate of long reads against their advantage in resolving repetitive and structurally complex viral genome regions — addressed through hybrid assembly strategies and careful benchmarking design."
+  },
+  {
+    "objectID": "projects/virion3.html#publications",
+    "href": "projects/virion3.html#publications",
+    "title": "VirION3",
+    "section": "Publications",
+    "text": "Publications\nManuscript in preparation."
+  },
+  {
+    "objectID": "projects/virion3.html#code-and-documentation",
+    "href": "projects/virion3.html#code-and-documentation",
+    "title": "VirION3",
+    "section": "Code and documentation",
+    "text": "Code and documentation\nRepository link pending public release."
+  },
+  {
+    "objectID": "projects/virion3.html#collaborators",
+    "href": "projects/virion3.html#collaborators",
+    "title": "VirION3",
+    "section": "Collaborators",
+    "text": "Collaborators\nExtends prior VirION/VirION2 methods developed within the Sullivan Lab, The Ohio State University."
+  },
+  {
+    "objectID": "projects/virion3.html#current-status",
+    "href": "projects/virion3.html#current-status",
+    "title": "VirION3",
+    "section": "Current status",
+    "text": "Current status\nOngoing development and benchmarking."
+  },
+  {
+    "objectID": "projects/virion3.html#limitations-or-confidentiality-note",
+    "href": "projects/virion3.html#limitations-or-confidentiality-note",
+    "title": "VirION3",
+    "section": "Limitations or confidentiality note",
+    "text": "Limitations or confidentiality note\nThis page describes methods and general goals only; specific results are withheld pending publication."
+  },
+  {
+    "objectID": "publications/bats-diel-virome-paper.html",
+    "href": "publications/bats-diel-virome-paper.html",
+    "title": "Sub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics without community-level shifts",
+    "section": "",
+    "text": "Journal: PLOS Biology · Year: 2026\nMy contribution: Co-author. Contributed bioinformatic and statistical analysis of viral population dynamics.\nCitation: (Carrillo et al., 2026)\nDOI: 10.1371/journal.pbio.3003474\n\n\n\n\nReferences\n\nCarrillo, A., Hageman, E., Chittick, L., Mackey, A. I., Ndlovu, K. S., Tian, F., Gilbert, N. E., Muratore, D., Vik, D., LeCleir, G. R., Sun, C., & Pavan, R. R. (2026). Sub-daily virus sampling at the bermuda atlantic time series reveals diel and depth-structured population dynamics without community-level shifts. PLOS Biology, 24(3), e3003474. https://doi.org/10.1371/journal.pbio.3003474"
+  },
+  {
+    "objectID": "publications/estuarine-network-ml.html",
+    "href": "publications/estuarine-network-ml.html",
+    "title": "Network and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient",
+    "section": "",
+    "text": "Journal: Estuarine, Coastal and Shelf Science · Year: 2022\nMy contribution: Lead author (PhD research). Network analysis and machine learning applied to estuarine microbial gradient data.\nCitation: (Da Silva et al., 2022)\nLink\n\n\n\n\nReferences\n\nDa Silva, R. R. P., White, C. A., Bowman, J. P., Bodrossy, L., Bissett, A., Revill, A., Eriksen, R., & Ross, D. J. (2022). Network and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient. Estuarine, Coastal and Shelf Science, 108026. https://www.sciencedirect.com/science/article/pii/S0272771422002840"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Filter by topic using the category chips below. Each entry lists my specific contribution — first-author/lead work is distinguished from collaborative contributions. ## Presentations\n\nCoMS-GSU 2026 Symposium, Columbus, OH (April 2026) — Poster: VirION3: an advanced short- and long-read sequencing and informatics workflow for viral diversity in natural environments.\nMidwest Microbiome Symposium, Columbus, OH (May 2025) — Poster: CRESSENT: A Toolkit to Enhance ssDNA Virus Annotation.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDate\n\n\nJournal / Venue\n\n\nCategories\n\n\n\n\n\n\nSub-daily virus sampling at the Bermuda Atlantic Time Series reveals diel and depth-structured population dynamics without community-level shifts\n\n\nJan 1, 2026\n\n\nPLOS Biology\n\n\nViromics, Environmental Research\n\n\n\n\nCRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation\n\n\nJan 1, 2026\n\n\nMicrobial Genomics\n\n\nViromics, Bioinformatics Software\n\n\n\n\nThe vaginal microbiome of pregnant people living with HIV on antiretroviral therapy in the Democratic Republic of Congo: a pilot study and global meta-analysis\n\n\nJan 1, 2026\n\n\nmSphere\n\n\nMicrobiome, Biomedical Research\n\n\n\n\nGene length is a pivotal feature to explain disparities in transcript capture between single transcriptome techniques\n\n\nJan 1, 2023\n\n\nFrontiers in Bioinformatics\n\n\nMachine Learning, Biomedical Research\n\n\n\n\nComposition and functionality of bacterioplankton communities in marine coastal zones adjacent to finfish aquaculture\n\n\nJan 1, 2022\n\n\nMarine Pollution Bulletin\n\n\nEnvironmental Research, Microbiome\n\n\n\n\nNetwork and machine learning analyses of estuarine microbial communities along a freshwater-marine mixed gradient\n\n\nJan 1, 2022\n\n\nEstuarine, Coastal and Shelf Science\n\n\nEnvironmental Research, Machine Learning\n\n\n\n\nEffects of finfish farms on pelagic protist communities in a semi-closed stratified embayment\n\n\nJan 1, 2022\n\n\nbioRxiv (preprint)\n\n\nEnvironmental Research\n\n\n\n\nEnvironmental influences shaping microbial communities in a low oxygen, highly stratified marine embayment\n\n\nJan 1, 2021\n\n\nAquatic Microbial Ecology\n\n\nEnvironmental Research\n\n\n\n\nGenotoxicity in Oreochromis niloticus (Cichlidae) induced by Microcystis spp bloom extract containing microcystins\n\n\nJan 1, 2011\n\n\nToxicon\n\n\nBiomedical Research\n\n\n\n\nToxicity and genotoxicity in Astyanax bimaculatus (Characidae) induced by microcystins from a bloom of Microcystis spp\n\n\nJan 1, 2010\n\n\nGenetics and Molecular Biology\n\n\nBiomedical Research\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/microcystin-genotoxicity-tilapia.html",
+    "href": "publications/microcystin-genotoxicity-tilapia.html",
+    "title": "Genotoxicity in Oreochromis niloticus (Cichlidae) induced by Microcystis spp bloom extract containing microcystins",
+    "section": "",
+    "text": "Journal: Toxicon · Year: 2011\nMy contribution: Lead author (MSc research).\nCitation: (Silva et al., 2011)\nDOI: 10.1016/j.toxicon.2011.06.005\n\n\n\n\nReferences\n\nSilva, R. P. da, Pires, O. R., & Grisolia, C. K. (2011). Genotoxicity in oreochromis niloticus (cichlidae) induced by microcystis spp bloom extract containing microcystins. Toxicon, 58(3), 259–264. https://doi.org/10.1016/j.toxicon.2011.06.005"
+  },
+  {
+    "objectID": "publications/pelagic-protist-aquaculture.html",
+    "href": "publications/pelagic-protist-aquaculture.html",
+    "title": "Effects of finfish farms on pelagic protist communities in a semi-closed stratified embayment",
+    "section": "",
+    "text": "Journal: bioRxiv (preprint) · Year: 2022\nMy contribution: Lead author (PhD research).\nCitation: (Da Silva et al., 2022)\nDOI: 10.1101/2022.08.08.503163\n\n\n\n\nReferences\n\nDa Silva, R. R. P., White, C. A., Bowman, J. P., & Ross, D. J. (2022). Effects of finfish farms on pelagic protist communities in a semi-closed stratified embayment. bioRxiv. https://doi.org/10.1101/2022.08.08.503163"
+  },
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Software",
+    "section": "",
+    "text": "Purpose: Modular toolkit for annotation and analysis of CRESS (circular Rep-encoding ssDNA) DNA viruses — motif detection, recombination analysis, stem-loop/iteron detection, sequence logos.\nMy role: Lead developer — design, implementation, testing, documentation, packaging, and manuscript.\nLanguages: Python, R\nStatus: Active — published and maintained\nDocumentation: GitHub repository\nRepository: github.com/ricrocha82/cressent\nInstallation: PyPI and Bioconda (add exact install commands here once confirmed, e.g. pip install cressent / conda install -c bioconda cressent)\nCitation: &gt; Pavan, R.R., Sullivan, M.B. and Tisza, M., 2026. CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics, 12:001632. https://doi.org/10.1099/mgen.0.001632\nLicense: [PLACEHOLDER — confirm license, e.g. MIT/GPL-3.0]\nTests: Automated test suite (see repository)\nReleases: See GitHub releases\nRelated publication: Microbial Genomics, 2026\n\n\n\n\n\nflowchart LR\n  A[CRESS virus genome] --&gt; B[CRESSENT CLI]\n  B --&gt; C[Motif / structural annotation]\n  B --&gt; D[Recombination analysis]\n  C --&gt; E[Sequence logos + report]\n  D --&gt; E"
+  },
+  {
+    "objectID": "software/index.html#cressent",
+    "href": "software/index.html#cressent",
+    "title": "Software",
+    "section": "",
+    "text": "Purpose: Modular toolkit for annotation and analysis of CRESS (circular Rep-encoding ssDNA) DNA viruses — motif detection, recombination analysis, stem-loop/iteron detection, sequence logos.\nMy role: Lead developer — design, implementation, testing, documentation, packaging, and manuscript.\nLanguages: Python, R\nStatus: Active — published and maintained\nDocumentation: GitHub repository\nRepository: github.com/ricrocha82/cressent\nInstallation: PyPI and Bioconda (add exact install commands here once confirmed, e.g. pip install cressent / conda install -c bioconda cressent)\nCitation: &gt; Pavan, R.R., Sullivan, M.B. and Tisza, M., 2026. CRESSENT: a bioinformatics toolkit to explore and improve ssDNA virus annotation. Microbial Genomics, 12:001632. https://doi.org/10.1099/mgen.0.001632\nLicense: [PLACEHOLDER — confirm license, e.g. MIT/GPL-3.0]\nTests: Automated test suite (see repository)\nReleases: See GitHub releases\nRelated publication: Microbial Genomics, 2026\n\n\n\n\n\nflowchart LR\n  A[CRESS virus genome] --&gt; B[CRESSENT CLI]\n  B --&gt; C[Motif / structural annotation]\n  B --&gt; D[Recombination analysis]\n  C --&gt; E[Sequence logos + report]\n  D --&gt; E"
+  },
+  {
+    "objectID": "software/index.html#virion3",
+    "href": "software/index.html#virion3",
+    "title": "Software",
+    "section": "VirION3",
+    "text": "VirION3\nPurpose: Hybrid long- and short-read viromics workflow (Nanopore, PacBio, Illumina) for improved viral genome recovery.\nMy role: Developer, benchmarking analysis.\nLanguages: Nextflow, Bash, Python\nStatus: In development\nRepository: link pending public release\nRelated project page: VirION3"
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "",
+    "text": "This is a worked example tutorial demonstrating the site’s tutorial template. Commands are shown but not executed in this build (no Nextflow runtime in the build environment) — copy them into your own environment to run."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#problem",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#problem",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Problem",
+    "text": "Problem\nMetagenomics pipelines often start as a chain of manually-run scripts on one person’s laptop or HPC account. That works until someone else — a collaborator, a reviewer, or future-you — needs to rerun the analysis on new data. This tutorial shows a minimal but complete Nextflow structure that avoids that trap."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#learning-objectives",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#learning-objectives",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this tutorial you will be able to:\n\nStructure a two-step metagenomics workflow (QC → assembly) as a Nextflow pipeline\nParameterize inputs so the pipeline runs on any sample sheet\nContainerize each process so results don’t depend on locally installed software versions"
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#prerequisites",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#prerequisites",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nNextflow ≥ 23.10 installed (curl -s https://get.nextflow.io | bash)\nDocker or Apptainer/Singularity available\nBasic familiarity with the command line"
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#conceptual-explanation",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#conceptual-explanation",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Conceptual explanation",
+    "text": "Conceptual explanation\nA Nextflow pipeline is a directed graph of processes connected by channels. Each process declares its own inputs, outputs, and (ideally) its own container — so a process that runs fastp for quality control doesn’t care what’s installed on the host machine, only what’s in its container image. This is what makes the same pipeline reproducible on a laptop, a lab server, or an HPC cluster managed by Slurm."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#reproducible-example",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#reproducible-example",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Reproducible example",
+    "text": "Reproducible example\nWe use a small simulated paired-end FASTQ dataset (no real or confidential sample data) to demonstrate the two core processes: quality control and assembly."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#code",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#code",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Code",
+    "text": "Code\nmain.nf:\n#!/usr/bin/env nextflow\nnextflow.enable.dsl=2\n\nparams.reads = \"data/*_R{1,2}.fastq.gz\"\nparams.outdir = \"results\"\n\nprocess FASTP {\n    container 'quay.io/biocontainers/fastp:0.23.4--h5f740d0_0'\n    publishDir \"${params.outdir}/qc\", mode: 'copy'\n\n    input:\n    tuple val(sample_id), path(reads)\n\n    output:\n    tuple val(sample_id), path(\"${sample_id}_clean_{1,2}.fastq.gz\")\n\n    script:\n    \"\"\"\n    fastp -i ${reads[0]} -I ${reads[1]} \\\\\n          -o ${sample_id}_clean_1.fastq.gz -O ${sample_id}_clean_2.fastq.gz\n    \"\"\"\n}\n\nprocess MEGAHIT {\n    container 'quay.io/biocontainers/megahit:1.2.9--h5b5514e_3'\n    publishDir \"${params.outdir}/assembly\", mode: 'copy'\n\n    input:\n    tuple val(sample_id), path(reads)\n\n    output:\n    path(\"${sample_id}_assembly\")\n\n    script:\n    \"\"\"\n    megahit -1 ${reads[0]} -2 ${reads[1]} -o ${sample_id}_assembly\n    \"\"\"\n}\n\nworkflow {\n    reads_ch = Channel.fromFilePairs(params.reads)\n    qc_ch = FASTP(reads_ch)\n    MEGAHIT(qc_ch)\n}\nRunning it on a Slurm cluster with Apptainer instead of Docker just changes the executor/engine in nextflow.config:\nprocess.executor = 'slurm'\napptainer.enabled = true\nprocess.container = 'library://...'"
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#output",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#output",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Output",
+    "text": "Output\nresults/\n├── qc/\n│   ├── sample1_clean_1.fastq.gz\n│   └── sample1_clean_2.fastq.gz\n└── assembly/\n    └── sample1_assembly/\n        └── final.contigs.fa"
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#interpretation",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#interpretation",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Interpretation",
+    "text": "Interpretation\nEach process’s output is published to a predictable path under results/, independent of where or how the pipeline was executed. The final.contigs.fa file is your assembled contigs, ready for downstream binning."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#common-errors",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#common-errors",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Common errors",
+    "text": "Common errors\n\n“No such container” errors on HPC: usually means Apptainer isn’t enabled in nextflow.config, or the image needs to be pulled/cached first.\nChannel mismatch (“Invalid method invocation”): almost always a mismatch between how fromFilePairs globs your files and your actual filenames — check the glob pattern against ls data/.\nSilent resume failures: Nextflow’s -resume relies on unchanged inputs/hash; editing a script and expecting cached results for the same step is a common surprise."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#limitations",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#limitations",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Limitations",
+    "text": "Limitations\nThis example omits real-world necessities you’d add for production use: host-read depletion, multiple assemblers for comparison, and resource directives (cpus, memory) tuned to your cluster’s queue policy."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#references",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#references",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "References",
+    "text": "References\nDi Tommaso, P. et al. (2017). Nextflow enables reproducible computational workflows. Nature Biotechnology."
+  },
+  {
+    "objectID": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#environment",
+    "href": "tutorials/posts/nextflow-metagenomics-pipeline/index.html#environment",
+    "title": "Building a Reproducible Nextflow Pipeline for Metagenomics",
+    "section": "Environment",
+    "text": "Environment\nnextflow.config specifies container engine (docker/apptainer) and executor (local/slurm).\nContainer images pinned by tag (see `container` directives above) for exact reproducibility."
+  }
+]

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ricardo R. Pavan</title>
+<link>https://ricrocha82.github.io/tutorials/</link>
+<atom:link href="https://ricrocha82.github.io/tutorials/index.xml" rel="self" type="application/rss+xml"/>
+<description>Reproducible tutorials on bioinformatics, pipelines, and HPC — Python, R, Bash, Nextflow.</description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Fri, 24 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building a Reproducible Nextflow Pipeline for Metagenomics</title>
+  <link>https://ricrocha82.github.io/tutorials/posts/nextflow-metagenomics-pipeline/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="placeholder-note">
+<p>This is a worked <strong>example</strong> tutorial demonstrating the site’s tutorial template. Commands are shown but not executed in this build (no Nextflow runtime in the build environment) — copy them into your own environment to run.</p>
+</div>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Metagenomics pipelines often start as a chain of manually-run scripts on one person’s laptop or HPC account. That works until someone else — a collaborator, a reviewer, or future-you — needs to rerun the analysis on new data. This tutorial shows a minimal but complete Nextflow structure that avoids that trap.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>By the end of this tutorial you will be able to:</p>
+<ul>
+<li>Structure a two-step metagenomics workflow (QC → assembly) as a Nextflow pipeline</li>
+<li>Parameterize inputs so the pipeline runs on any sample sheet</li>
+<li>Containerize each process so results don’t depend on locally installed software versions</li>
+</ul>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Nextflow ≥ 23.10 installed (<code>curl -s https://get.nextflow.io | bash</code>)</li>
+<li>Docker or Apptainer/Singularity available</li>
+<li>Basic familiarity with the command line</li>
+</ul>
+</section>
+<section id="conceptual-explanation" class="level2">
+<h2 class="anchored" data-anchor-id="conceptual-explanation">Conceptual explanation</h2>
+<p>A Nextflow pipeline is a directed graph of <strong>processes</strong> connected by <strong>channels</strong>. Each process declares its own inputs, outputs, and (ideally) its own container — so a process that runs <code>fastp</code> for quality control doesn’t care what’s installed on the host machine, only what’s in its container image. This is what makes the same pipeline reproducible on a laptop, a lab server, or an HPC cluster managed by Slurm.</p>
+</section>
+<section id="reproducible-example" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-example">Reproducible example</h2>
+<p>We use a small <strong>simulated</strong> paired-end FASTQ dataset (no real or confidential sample data) to demonstrate the two core processes: quality control and assembly.</p>
+</section>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<p><code>main.nf</code>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode groovy code-with-copy"><code class="sourceCode groovy"><span id="cb1-1">#<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/usr/</span>bin<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>env nextflow</span>
+<span id="cb1-2">nextflow<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>enable<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>dsl<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-3"></span>
+<span id="cb1-4">params<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>reads <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"data/*_R{1,2}.fastq.gz"</span></span>
+<span id="cb1-5">params<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>outdir <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"results"</span></span>
+<span id="cb1-6"></span>
+<span id="cb1-7">process FASTP <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span></span>
+<span id="cb1-8">    container <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'quay.io/biocontainers/fastp:0.23.4--h5f740d0_0'</span></span>
+<span id="cb1-9">    publishDir <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>params<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>outdir<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/qc"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> mode<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'copy'</span></span>
+<span id="cb1-10"></span>
+<span id="cb1-11">    input<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-12">    tuple <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>sample_id<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">),</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">path</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-13"></span>
+<span id="cb1-14">    output<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-15">    tuple <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>sample_id<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">),</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">path</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>sample_id<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_clean_{1,2}.fastq.gz"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-16"></span>
+<span id="cb1-17">    script<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-18">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb1-19"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">    fastp -i </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> -I </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span></span>
+<span id="cb1-20"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">          -o </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>sample_id<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_clean_1.fastq.gz -O </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>sample_id<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_clean_2.fastq.gz</span></span>
+<span id="cb1-21"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">    """</span></span>
+<span id="cb1-22"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span></span>
+<span id="cb1-23"></span>
+<span id="cb1-24">process MEGAHIT <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span></span>
+<span id="cb1-25">    container <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'quay.io/biocontainers/megahit:1.2.9--h5b5514e_3'</span></span>
+<span id="cb1-26">    publishDir <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>params<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>outdir<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/assembly"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> mode<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'copy'</span></span>
+<span id="cb1-27"></span>
+<span id="cb1-28">    input<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-29">    tuple <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>sample_id<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">),</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">path</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-30"></span>
+<span id="cb1-31">    output<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-32">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">path</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>sample_id<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_assembly"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-33"></span>
+<span id="cb1-34">    script<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-35">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb1-36"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">    megahit -1 </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> -2 </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> -o </span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">${</span>sample_id<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_assembly</span></span>
+<span id="cb1-37"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">    """</span></span>
+<span id="cb1-38"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span></span>
+<span id="cb1-39"></span>
+<span id="cb1-40">workflow <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span></span>
+<span id="cb1-41">    reads_ch <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">Channel</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fromFilePairs</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>params<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>reads<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-42">    qc_ch <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">FASTP</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>reads_ch<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-43">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">MEGAHIT</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>qc_ch<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span id="cb1-44"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span></span></code></pre></div>
+<p>Running it on a Slurm cluster with Apptainer instead of Docker just changes the executor/engine in <code>nextflow.config</code>:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode groovy code-with-copy"><code class="sourceCode groovy"><span id="cb2-1">process<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>executor <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'slurm'</span></span>
+<span id="cb2-2">apptainer<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>enabled <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">true</span></span>
+<span id="cb2-3">process<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>container <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'library://...'</span></span></code></pre></div>
+</section>
+<section id="output" class="level2">
+<h2 class="anchored" data-anchor-id="output">Output</h2>
+<pre><code>results/
+├── qc/
+│   ├── sample1_clean_1.fastq.gz
+│   └── sample1_clean_2.fastq.gz
+└── assembly/
+    └── sample1_assembly/
+        └── final.contigs.fa</code></pre>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<p>Each process’s output is published to a predictable path under <code>results/</code>, independent of where or how the pipeline was executed. The <code>final.contigs.fa</code> file is your assembled contigs, ready for downstream binning.</p>
+</section>
+<section id="common-errors" class="level2">
+<h2 class="anchored" data-anchor-id="common-errors">Common errors</h2>
+<ul>
+<li><strong>“No such container” errors on HPC:</strong> usually means Apptainer isn’t enabled in <code>nextflow.config</code>, or the image needs to be pulled/cached first.</li>
+<li><strong>Channel mismatch (“Invalid method invocation”):</strong> almost always a mismatch between how <code>fromFilePairs</code> globs your files and your actual filenames — check the glob pattern against <code>ls data/</code>.</li>
+<li><strong>Silent resume failures:</strong> Nextflow’s <code>-resume</code> relies on unchanged inputs/hash; editing a script <em>and</em> expecting cached results for the same step is a common surprise.</li>
+</ul>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>This example omits real-world necessities you’d add for production use: host-read depletion, multiple assemblers for comparison, and resource directives (<code>cpus</code>, <code>memory</code>) tuned to your cluster’s queue policy.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Di Tommaso, P. et al.&nbsp;(2017). Nextflow enables reproducible computational workflows. <em>Nature Biotechnology</em>.</p>
+</section>
+<section id="environment" class="level2">
+<h2 class="anchored" data-anchor-id="environment">Environment</h2>
+<pre><code>nextflow.config specifies container engine (docker/apptainer) and executor (local/slurm).
+Container images pinned by tag (see `container` directives above) for exact reproducibility.</code></pre>
+
+
+</section>
+
+ ]]></description>
+  <category>Nextflow</category>
+  <category>Metagenomics</category>
+  <category>HPC</category>
+  <guid>https://ricrocha82.github.io/tutorials/posts/nextflow-metagenomics-pipeline/</guid>
+  <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ricrocha82.github.io/tutorials/posts/nextflow-metagenomics-pipeline/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>

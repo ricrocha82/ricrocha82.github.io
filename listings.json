@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/tutorials/index.html",
+    "items": [
+      "/tutorials/posts/nextflow-metagenomics-pipeline/index.html"
+    ]
+  },
+  {
+    "listing": "/data-stats/index.html",
+    "items": [
+      "/data-stats/posts/clustering-comparisons/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/tutorials/posts/nextflow-metagenomics-pipeline/index.html",
+      "/data-stats/posts/clustering-comparisons/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/bats-diel-virome.html",
+      "/projects/vaginal-microbiome.html",
+      "/projects/cressent.html",
+      "/projects/cyberinfrastructure.html",
+      "/projects/virion3.html",
+      "/projects/pig-burn-wound.html",
+      "/projects/sci-microbiome.html",
+      "/projects/mba-stats.html",
+      "/projects/macquarie-harbour.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/bats-diel-virome-paper.html",
+      "/publications/cressent-toolkit.html",
+      "/publications/vaginal-microbiome-hiv.html",
+      "/publications/gene-length-transcript-capture.html",
+      "/publications/bacterioplankton-aquaculture.html",
+      "/publications/estuarine-network-ml.html",
+      "/publications/pelagic-protist-aquaculture.html",
+      "/publications/macquarie-harbour-environmental.html",
+      "/publications/microcystin-genotoxicity-tilapia.html",
+      "/publications/microcystin-toxicity-astyanax.html"
+    ]
+  }
+]

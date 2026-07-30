@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ricardo R. Pavan</title>
+<link>https://ricrocha82.github.io/data-stats/</link>
+<atom:link href="https://ricrocha82.github.io/data-stats/index.xml" rel="self" type="application/rss+xml"/>
+<description>Data stories, statistical demonstrations, and visualization examples.</description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Fri, 24 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Comparing Clustering Methods on the Same Dataset</title>
+  <link>https://ricrocha82.github.io/data-stats/posts/clustering-comparisons/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-analytical-question" class="level2">
+<h2 class="anchored" data-anchor-id="the-analytical-question">The analytical question</h2>
+<p>Given a set of samples described by several continuous environmental variables (e.g.&nbsp;temperature, oxygen, salinity), do they form distinct groups — and does the answer depend on which clustering method you use?</p>
+</section>
+<section id="data-source" class="level2">
+<h2 class="anchored" data-anchor-id="data-source">Data source</h2>
+<p>This post uses a <strong>simulated</strong> dataset of 150 samples with three underlying groups, generated with <code>scikit-learn</code>’s <code>make_blobs</code>, plus one method (DBSCAN) evaluated on a non-globular shape to show where k-means style methods fail. No real project or confidential data is used.</p>
+</section>
+<section id="data-cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="data-cleaning">Data cleaning</h2>
+<p>Simulated data is already clean; in practice this step would include checking for missing values, standardizing variable scales (important here — clustering is scale-sensitive), and screening for outliers.</p>
+</section>
+<section id="statistical-method" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-method">Statistical method</h2>
+<p>Three methods are compared on the same standardized data: <strong>k-means</strong> (assumes roughly spherical, similarly-sized clusters), <strong>agglomerative hierarchical clustering</strong> (Ward linkage), and <strong>DBSCAN</strong> (density-based, no assumption of cluster shape).</p>
+</section>
+<section id="code" class="level2">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<div id="2e1837dc" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> sklearn.datasets <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> make_blobs</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> sklearn.preprocessing <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> StandardScaler</span>
+<span id="cb1-4"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> sklearn.cluster <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> KMeans, AgglomerativeClustering, DBSCAN</span>
+<span id="cb1-5"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-6"></span>
+<span id="cb1-7">rng <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.random.default_rng(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">42</span>)</span>
+<span id="cb1-8">X, y_true <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> make_blobs(n_samples<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">150</span>, centers<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, cluster_std<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.9</span>, random_state<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">42</span>)</span>
+<span id="cb1-9">X <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> StandardScaler().fit_transform(X)</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">kmeans <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> KMeans(n_clusters<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, n_init<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, random_state<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">42</span>).fit_predict(X)</span>
+<span id="cb1-12">hier <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> AgglomerativeClustering(n_clusters<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, linkage<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ward"</span>).fit_predict(X)</span>
+<span id="cb1-13">dbscan <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> DBSCAN(eps<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.4</span>, min_samples<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>).fit_predict(X)</span>
+<span id="cb1-14"></span>
+<span id="cb1-15">fig, axes <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, figsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>))</span>
+<span id="cb1-16"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> ax, labels, name <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">zip</span>(</span>
+<span id="cb1-17">    axes, [kmeans, hier, dbscan], [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"K-means"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Hierarchical (Ward)"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"DBSCAN"</span>]</span>
+<span id="cb1-18">):</span>
+<span id="cb1-19">    ax.scatter(X[:, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>], X[:, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>], c<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>labels, cmap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"viridis"</span>, s<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>)</span>
+<span id="cb1-20">    ax.set_title(name)</span>
+<span id="cb1-21">    ax.set_xticks([])<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> ax.set_yticks([])</span>
+<span id="cb1-22">plt.tight_layout()</span>
+<span id="cb1-23">plt.show()</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ricrocha82.github.io/data-stats/posts/clustering-comparisons/index_files/figure-html/cell-2-output-1.png" class="img-fluid figure-img" alt="Three side-by-side scatter plots showing the same simulated data points colored by cluster assignment under k-means, hierarchical (Ward), and DBSCAN clustering, with all three methods producing similar groupings on this well-separated example."></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="visualization" class="level2">
+<h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
+<p>The figure above shows the same simulated samples colored by cluster assignment under each method.</p>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<p>On this well-separated, roughly spherical simulated dataset, all three methods agree closely with the true grouping. That agreement is the exception, not the rule: as soon as clusters vary in density, size, or shape, k-means and Ward-linkage hierarchical clustering (which both implicitly assume compact, similarly-sized groups) start to disagree with density-based methods like DBSCAN — and neither is “more correct” without external validation.</p>
+</section>
+<section id="assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="assumptions">Assumptions</h2>
+<ul>
+<li>K-means and Ward-linkage clustering assume clusters are roughly convex/spherical and similar in size.</li>
+<li>DBSCAN assumes clusters are contiguous regions of similar density and requires tuning <code>eps</code>/<code>min_samples</code>, which is data-scale-dependent.</li>
+<li>All three assume standardized (comparable-scale) input features; skipping standardization here would let higher-variance variables dominate the distance calculations.</li>
+</ul>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>Cluster number was fixed at <em>k</em>=3 for k-means/hierarchical for illustration; in practice this should be chosen via a validation criterion (e.g.&nbsp;silhouette score, gap statistic) rather than assumed. Real ecological or microbiome data rarely produces clusters this well-separated — treat this as a demonstration of method <em>behavior</em>, not a recommendation to trust any single method’s output at face value.</p>
+</section>
+<section id="reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility">Reproducibility</h2>
+<p><code>scikit-learn</code>, <code>numpy</code>, <code>matplotlib</code> — see <code>environment.yml</code> in the tutorial repository <em>(placeholder — link to your actual environment file when publishing)</em>. Random seed fixed (<code>random_state=42</code>) for exact reproducibility of this simulated example.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Statistics</category>
+  <category>Machine Learning</category>
+  <guid>https://ricrocha82.github.io/data-stats/posts/clustering-comparisons/</guid>
+  <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ricrocha82.github.io/data-stats/posts/clustering-comparisons/featured.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>

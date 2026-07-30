@@ -1,8 +1,8 @@
 ---
-title: "Home"
+title: "Welcome !"
 page-layout: full
 title-block-banner: false
-description: "Bioinformatics scientist developing reproducible computational methods for microbiome, virome, and biomedical research."
+description: "Data Scientist and Bioinformatician turning complex data into reproducible workflows, clear visualizations, and actionable insights across diverse fields. I also build open-source tools and coordinate interdisciplinary projects."
 listing:
   - id: latest-tutorials
     contents:

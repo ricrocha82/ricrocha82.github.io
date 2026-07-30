@@ -7,20 +7,19 @@
 
 name: "Ricardo R. Pavan"
 name_short: "Ricardo Pavan"
-title: "Bioinformatics Scientist"
-subtitle: "Microbiome, Viromics & Reproducible Data Science"
+title: "Data Scientist and Bioinformatician"
+subtitle: "Reproducible Data analysis"
 
 positioning_short: >-
-  Bioinformatics and data science researcher developing reproducible
-  computational methods for microbiome, virome, and biomedical research.
+  Data scientist and bioinformatician developing reproducible
+  computational methods for several fields.
 
 positioning_supporting: >-
-  I develop reproducible bioinformatics pipelines and statistical/machine
-  learning methods for microbiome, virome, and biomedical data — from raw
-  sequencing reads to publication-ready results.
+  I develop reproducible pipelines and statistical/machine
+  learning methods for complex data
 
 institution: "The Ohio State University"
-role_current: "Postdoctoral Researcher, Bioinformatics"
+role_current: "Researcher fellow, Bioinformatics and data analysis"
 location: "Columbus, OH, USA"
 
 links:
